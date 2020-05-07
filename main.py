@@ -2,6 +2,7 @@ import sys
 from PyQt5.QtGui import QGuiApplication
 from PyQt5.QtQml import QQmlApplicationEngine
 
+
 if __name__ == "__main__": 
 	sys_argv = sys.argv
 	sys_argv += ['--style', 'material']
