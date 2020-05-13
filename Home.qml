@@ -1,14 +1,37 @@
+/****************************************************************************
+* Copyright (C) 2020 Olaf Japp
+*
+* This file is part of THX.
+*
+*  THX is free software: you can redistribute it and/or modify
+*  it under the terms of the GNU General Public License as published by
+*  the Free Software Foundation, either version 3 of the License, or
+*  (at your option) any later version.
+*
+*  THX is distributed in the hope that it will be useful,
+*  but WITHOUT ANY WARRANTY; without even the implied warranty of
+*  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+*  GNU General Public License for more details.
+*
+*  You should have received a copy of the GNU General Public License
+*  along with THX.  If not, see <http://www.gnu.org/licenses/>.
+*
+****************************************************************************/
+
 import QtQuick 2.5
 import QtQuick.Controls 2.0
 import QtQuick.Controls.Material 2.1
 import QtQuick.Layouts 1.0
 
 
-Page {
+Page 
+{
 	title: "Basic Income"
-	ColumnLayout{
+	ColumnLayout
+	{
     
-    	Rectangle {
+    	Rectangle 
+		{
     		id: display
     		height: 200
     		color: "#C0C0C0"
@@ -16,23 +39,27 @@ Page {
     		anchors.right: parent. right
     		anchors.left: parent.left
     		anchors.margins: 50
-    		Text {
+    		Text 
+			{
     			text: "Balance"
     		} 
-    		Text {
+    		Text 
+			{
     			font.pixelSize: 100
     			text: "1.450"
     			anchors.centerIn: parent
     		} 
-    		Text {
+    		Text 
+			{
     			anchors.right: parent. right
     			anchors. bottom: parent.bottom
     			text: "THX"
     		} 
-   	 }
+   	 	}
    	 
     
-    	Row {
+    	Row 
+		{
     		id: buttons
     		width: parent.width
         	spacing: 50
@@ -41,53 +68,55 @@ Page {
         	anchors.right: parent.right
         	anchors.margins: 56
     
-    		Button {
+    		Button 
+			{
     			width: 170
     			height: 150
     			Material.background: Material.Green
     			
-    			Text {
+    			Text 
+				{
     				anchors.centerIn: parent
     				font.pixelSize: 40
     				color: "#ffffff"
     				text: "Pay"
     			} 
-    		
     		} 
     	
-    		Button {
+    		Button 
+			{
     			width: 170
     			height: 150
     			Material.background: Material.Green
     		
-    				Text {
-    					anchors.centerIn: parent
-    					font.pixelSize: 40
-    					color: "#ffffff"
-  	  				text: "Send"
- 	   		} 
-	    	} 
-    	
-    		Button {
-  	  		width: 170
- 	   		height: 150
-    			Material.background: Material.Green
-    		
-    				Text {
+    			Text 
+				{
     				anchors.centerIn: parent
     				font.pixelSize: 40
     				color: "#ffffff"
-   	 			text: "Receive"
-    				} 
-   	 		onClicked: {
-   	 			stackview.push("receive.qml")
-   	 		
-   	 		} 
- 	   	} 
+  	  				text: "Send"
+ 	   			} 
+	    	} 
     	
+    		Button 
+			{
+  	  			width: 170
+ 	   			height: 150
+    			Material.background: Material.Green
+    		
+    			Text 
+				{
+    				anchors.centerIn: parent
+    				font.pixelSize: 40
+    				color: "#ffffff"
+   	 				text: "Receive"
+    			} 
+   	 			onClicked: stackview.push("receive.qml") 
+ 	   		} 
 	    }
 
-		Text {
+		Text 
+		{
 			id: caption
 			anchors.top: buttons.bottom
 			anchors.left: parent.left
@@ -95,82 +124,95 @@ Page {
 			anchors.leftMargin: 50
 			text: "Latest Bookings"
 		} 
-		Rectangle {
+		Rectangle 
+		{
 			anchors.right: parent. right
-   	 	anchors.left: parent.left
-   	 	anchors.leftMargin: 50
+   	 		anchors.left: parent.left
+   	 		anchors.leftMargin: 50
     		anchors.rightMargin: 50
     		anchors.topMargin: 10
 		    anchors.top: caption.bottom
 		    height: 800
 		    color: "#EEEEEE"
-	    	ListView {
-	 	   	clip: true
+	    	ListView 
+			{
+	 	   		clip: true
 		    	anchors.fill: parent
 	    		anchors.margins: 5
-	 	   	spacing: 5
+	 	   		spacing: 5
 	    	
 		    	delegate: listDelegate
 	    	
-	    		Component {
-	 	   		id: listDelegate
+	    		Component 
+				{
+	 	   			id: listDelegate
 	    		
-	    			Rectangle {
-	   	 			width: parent.width 
+	    			Rectangle 
+					{
+	   	 				width: parent.width 
 	    				height: 40
-	    				Text {
+	    				Text 
+						{
 	    					id: date
 	    					text: model.date
 	    					font.pixelSize: 30
 	    				} 
-	    				Text {
+	    				Text 
+						{
 	    					anchors.left: date.right
 	    					anchors.leftMargin: 15
 	    					text: model.text 
 	    					font.pixelSize: 30
-	   	 			} 
-	   	 			Text {
-	   	 				anchors.right: parent.right
-	   	 				text: model.amount + " THX"
-	   	 				font.pixelSize: 30
-	   	 			} 
+	   	 				} 
+	   	 				Text 
+						{
+	   	 					anchors.right: parent.right
+	   	 					text: model.amount + " THX"
+	   	 					font.pixelSize: 30
+	   	 				} 
 		    		} 
 		    	} 
 	    	
-	    		model: ListModel {
-    	            ListElement {
+	    		model: ListModel 
+				{
+    	            ListElement 
+					{
     	            	date: "23.04.2020"
-                 	   text: "Basic Income"
-                 	   amount: 10
-         	       }
-     	           ListElement {
-     	           	date: "22.04.2020"
+                 	   	text: "Basic Income"
+                 	   	amount: 10
+         	       	}
+     	           	ListElement 
+					{
+     	           		date: "22.04.2020"
                 		text: "Basic Income"
                 		amount: 10
-         	       }
-      	          ListElement {
-      	          	date: "21.04.2020"
+         	       	}
+      	          	ListElement 
+					{
+      	          		date: "21.04.2020"
                 		text: "Basic Income"
                 		amount: 10
-          	      }
-          	      ListElement {
-      	          	date: "21.04.2020"
+          	      	}
+          	      	ListElement 
+					{
+      	          		date: "21.04.2020"
                 		text: "Payment"
                 		amount: - 60
-          	      }
-          	      ListElement {
-      	          	date: "21.04.2020"
+          	      	}
+          	      	ListElement 
+					{
+      	          		date: "21.04.2020"
                 		text: "Massage"
                 		amount: 90
-          	      }
-          	      ListElement {
-      	          	date: "20.04.2020"
+          	      	}
+          	      	ListElement 
+					{
+      	          		date: "20.04.2020"
                 		text: "Basic Income"
                 		amount: 10
-          	      }
+          	      	}
 	    		}
             }
 	    }
     }
-	
-	} 
+} 

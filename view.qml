@@ -1,35 +1,58 @@
+/****************************************************************************
+* Copyright (C) 2020 Olaf Japp
+*
+* This file is part of THX.
+*
+*  THX is free software: you can redistribute it and/or modify
+*  it under the terms of the GNU General Public License as published by
+*  the Free Software Foundation, either version 3 of the License, or
+*  (at your option) any later version.
+*
+*  THX is distributed in the hope that it will be useful,
+*  but WITHOUT ANY WARRANTY; without even the implied warranty of
+*  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+*  GNU General Public License for more details.
+*
+*  You should have received a copy of the GNU General Public License
+*  along with THX.  If not, see <http://www.gnu.org/licenses/>.
+*
+****************************************************************************/
+
 import QtQuick 2.5
 import QtQuick.Controls 2.0
 import QtQuick.Controls.Material 2.1
 import QtQuick.Layouts 1.0
 
-ApplicationWindow {
+ApplicationWindow 
+{
 	visible: true
 	id: window
-    header: ToolBar {
+    header: ToolBar 
+    {
     	height: 70
     	Material.background: Material.Green
-        ToolButton {
+        ToolButton 
+        {
             id: menuButton
             anchors.left: parent.left
             anchors.verticalCenter: parent.verticalCenter
-          //  icon.source: "images/drawer.png"
-          text: stackview.depth > 1 ? "\u25C0" : "\u2630"
-            
-        
-        
-        onClicked: {
-                if (stackview.depth > 1) {
-                    stackview.pop()
-                } else {
-                    drawer.open()
-                }
+            text: stackview.depth > 1 ? "⬅" : "≡"
+            font.pixelSize: 50
+            onClicked: 
+            {
+                    if (stackview.depth > 1) 
+                    {
+                        stackview.pop()
+                    } 
+                    else 
+                    {
+                        drawer.open()
+                    }
+            }    
         }
-        
-        
-        
-        }
-        Label {
+    
+        Label 
+        {
             anchors.centerIn: parent
             text: stackview.currentItem.title
             font.pixelSize: 50
@@ -37,41 +60,49 @@ ApplicationWindow {
         }
     }
     
-    StackView {
+    StackView 
+    {
     	id: stackview
     	initialItem: Home {}
     	anchors.fill: parent
     }
     
     
-    Drawer {
+    Drawer 
+    {
         id: drawer
 
         width: Math.min(window.width, window.height) / 3 * 2
         height: window.height
 
-        ListView {
+        ListView 
+        {
             focus: true
             currentIndex: -1
             anchors.fill: parent
 
-            delegate: ItemDelegate {
+            delegate: ItemDelegate 
+            {
                 width: parent.width
                 text: model.text
                 font.pixelSize: 40
                 highlighted: ListView.isCurrentItem
-                onClicked: {
+                onClicked: 
+                {
                     drawer.close()
                     //model.triggered()
-                    stackview.push("receive.qml")
+                    stackview.push("Receive.qml")
                 }
             }
 
-            model: ListModel {
-                ListElement {
+            model: ListModel 
+            {
+                ListElement 
+                {
                     text: "Open... "
                 }
-                ListElement {
+                ListElement 
+                {
                 	text: "About... "
                 }
             }
