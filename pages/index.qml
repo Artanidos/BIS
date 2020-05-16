@@ -46,7 +46,7 @@ Content {
 		Du hast dir ein kleines Geschäft aufgebaut, hast aber nicht genug Kunden.
 		Deine potentiellen Kunden haben nicht genug Geld um für deinen Service zu bezahlen.
 		&lt;/p&gt;
-	&lt;/div&gt;	
+	&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;row featured-box-minimal&quot;&gt;
 	&lt;div class=&quot;col-md-12&quot;&gt;
@@ -109,7 +109,7 @@ Möchtest du wissen, wie man diese Situation lösen kann? Dann les weiter.
     Section {
         cssclass: "parallax margin-top80"
         style: "background-image: url('assets/images/natur.jpg');"
-        attributes: "data-stellar-background-ratio=&quot;0.7&quot;"
+        attributes: "data-stellar-background-ratio='0.7'"
 
         Row {
 
@@ -121,7 +121,7 @@ Möchtest du wissen, wie man diese Situation lösen kann? Dann les weiter.
 	&lt;div class=&quot;row animation_fade_in&quot;&gt;
 		&lt;div class=&quot;col-md-6&quot;&gt;
 			&lt;div class=&quot;white-row&quot;&gt;
-				&lt;h3&gt;&lt;strong&gt;THX&lt;/strong&gt;,&lt;/h3&gt;
+				&lt;h3&gt;&lt;strong&gt;THX&lt;/strong&gt;&lt;/h3&gt;
 				&lt;p class=&quot;lead&quot;&gt;
 					eine neue Währung von dir selbst erschaffen.
 				&lt;/p&gt;
@@ -149,6 +149,7 @@ Möchtest du wissen, wie man diese Situation lösen kann? Dann les weiter.
 &lt;/p&gt;
 &lt;p&gt;
 	Du installierst die App auf deinem Handy und ab dann generierst du jeden Tag ein paar Münzen.&lt;/br&gt;
+	Du bekommst quasi Geld geschenkt.&lt;/br&gt;
 	Damit die Anzahl der Münzen begrenzt wird, verlieren alle Münzen über einen Zeitraum von 7 Jahre ihren Wert.
 	All das rechnet deine App natürlich für dich aus.&lt;/br&gt;
 &lt;/p&gt;
