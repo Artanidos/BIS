@@ -37,9 +37,9 @@ Content {
 
 &lt;p&gt;
 	You can make this happen...&lt;/br&gt;
-	I invite you to have a look at our campaign, make a donation and share the idea to your friends.
+	I invite you to have a look at our campaign, make a donation and share the idea to your friends.&lt;/br&gt;
+	Here is the link to &lt;a href=&quot;https://www.indiegogo.com/projects/thx&quot;&gt;IndieGoGo&lt;/a&gt;.
 &lt;/p&gt;
-
 &lt;p class=&quot;lead&quot;&gt;
 	We can create a better tommorow together right NOW.
 &lt;/p&gt;
