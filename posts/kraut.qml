@@ -51,4 +51,23 @@ Content {
             }
         }
     }
+
+    Section {
+
+        Row {
+
+            Column {
+                span: 12
+
+                Text {
+                    text: "&lt;!-- CALLOUT --&gt;
+&lt;div class=&quot;bs-callout text-center styleBackground&quot;&gt;
+	&lt;h3&gt;&lt;strong&gt;Hier&lt;/strong&gt; geht es zu unser CrowFunding Campagne&lt;a href=&quot;https://www.indiegogo.com/projects/thx&quot; target=&quot;_self&quot; class=&quot;btn btn-primary btn-lg&quot;&gt;Ich bin dabei&lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;!-- /CALLOUT --&gt;"
+                    adminlabel: "Callout"
+                }
+            }
+        }
+    }
 }
