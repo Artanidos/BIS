@@ -4,7 +4,7 @@ import TextEditor 1.0
 
 Content {
     title: "THX - Basic Income Simulator"
-    menu: "default"
+    menu: "default_en"
     author: "Olaf"
     layout: "default"
     date: "2020-05-16"
@@ -35,70 +35,71 @@ Content {
 
                 Text {
                     text: "&lt;h1&gt;
-	&lt;strong&gt;Willkommen&lt;/strong&gt; bei THX - Basic Income Simulator
-	&lt;span class=&quot;subtitle&quot;&gt;WIR SIND SEHR FROH DAS DU UNS GEFUNDEN HAST&lt;/span&gt;
+	&lt;strong&gt;Welcome&lt;/strong&gt; to THX - Basic Income Simulator
+	&lt;span class=&quot;subtitle&quot;&gt;WE ARE HAPPY THAT YOU HAVE FOUND US&lt;/span&gt;
 &lt;/h1&gt;
-&lt;p class=&quot;lead&quot;&gt;Wir haben die folgende Situation&lt;/p&gt;
+
+&lt;p class=&quot;lead&quot;&gt;We have got the following situation&lt;/p&gt;
 &lt;div class=&quot;row featured-box-minimal&quot;&gt;
 	&lt;div class=&quot;col-md-12&quot;&gt;
-		&lt;h4&gt;&lt;i class=&quot;fa fa-tag&quot;&gt;&lt;/i&gt; Kleingewerbe&lt;/h4&gt;
+		&lt;h4&gt;&lt;i class=&quot;fa fa-tag&quot;&gt;&lt;/i&gt; Small Business&lt;/h4&gt;
 		&lt;p&gt; 
-		Du hast dir ein kleines Geschäft aufgebaut, hast aber nicht genug Kunden.
-		Deine potentiellen Kunden haben nicht genug Geld um für deinen Service zu bezahlen.
+		You have created a small business, but not many customers.
+		Your potential customers don&#x27;t have enough money to pay for your service.
 		&lt;/p&gt;
 	&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;row featured-box-minimal&quot;&gt;
 	&lt;div class=&quot;col-md-12&quot;&gt;
-		&lt;h4&gt;&lt;i class=&quot;fa fa-users&quot;&gt;&lt;/i&gt; Nachbarschaft&lt;/h4&gt;
+		&lt;h4&gt;&lt;i class=&quot;fa fa-users&quot;&gt;&lt;/i&gt; Neighborhood&lt;/h4&gt;
 		&lt;p&gt;
-		In der Nachbarschaft hilft man sich ja gegenseitig.
-		Du kannst dich leicht daran errinnern, wem Du geholfen hast und wer dir noch einen Gefallen schuldet.
-		Aber irgendwann verlierst du den Überblick oder jemand, der dir noch einen Gefallen schuldet oder du ihm, zieht weg.
-		Du hast keine Möglichkeit die Energien noch auszugleichen.
+		In the neighborhood you help each other.
+		You can easily remember who you helped and who still owes you a favor.
+		But at some point you lose track or someone who owes you a favor or you owes him moves away.
+		You have no way to balance the energies.
 		&lt;/p&gt;
 	&lt;/div&gt;	
 &lt;/div&gt;
 &lt;div class=&quot;row featured-box-minimal&quot;&gt;
 	&lt;div class=&quot;col-md-12&quot;&gt;
-		&lt;h4&gt;&lt;i class=&quot;fa fa-users&quot;&gt;&lt;/i&gt; Andere Probleme mit der Nachbarschaft&lt;/h4&gt;
+		&lt;h4&gt;&lt;i class=&quot;fa fa-users&quot;&gt;&lt;/i&gt; Other Neighborhood Problems&lt;/h4&gt;
 		&lt;p&gt;
-		Denken wir einmal an eine Frisörin, die einem Automechaniker die Haare schneidet.
-		Nehmen wir an, sie fährt kein Auto.
-		Der Automechaniker ist also gar nicht in der Lage die Energien auszugleichen, in dem er ihr Auto repariert.
-		Er muss die Frisören also bar bezahlen.
-		Das wiederrum macht es nötig, das die Frisörin das Geld versteuert.
+		Let&#x27;s think of a hairdresser who cuts the hair of an auto mechanic.
+		Let&#x27;s say she doesn&#x27;t drive a car.
+		The car mechanic is therefore not able to balance the energies by repairing their car.
+		So he has to pay the hairdressers in cash.
+		This in turn makes it necessary for the hairdresser to ask for money.
 		&lt;/p&gt;
 	&lt;/div&gt;	
 &lt;/div&gt;
 &lt;div class=&quot;row featured-box-minimal&quot;&gt;
 	&lt;div class=&quot;col-md-12&quot;&gt;
-		&lt;h4&gt;&lt;i class=&quot;fa fa-users&quot;&gt;&lt;/i&gt; Steuern zahlen&lt;/h4&gt;
+		&lt;h4&gt;&lt;i class=&quot;fa fa-users&quot;&gt;&lt;/i&gt; Paying Taxes&lt;/h4&gt;
 		&lt;p&gt;
-		Versteh mich nicht falsch. Ich habe nichts gegen das Steuernzahlen.
-		Aber lass mir dir etwas erzählen.
-		Jedes Jahr muss die Regierung mehr Schulden aufnehmen, weil sie nicht mal die Zinsen zahlen kann.
-		Und dafür müssen wir immer mehr Steuern zahlen.
-		In Dänemark zahlst man z.B. 51% Einkommenssteuer und zusätzlich noch 25% Mehrwertsteuer.
-		Dem Dänen bleiben also gerade mal 24% seines Einkommens.
-		Der grösste Teil deines Einkommens wird verwendet um Staatsschulden zu begleichen.
+		Do not get me wrong. I have nothing against paying taxes.
+		But let me tell you something.
+		Every year the government has to take on more debt, because it can&#x27;t even pay the interest.
+		And for that we have to pay more and more taxes.
+		In Denmark you pay about 51% income tax and an additional 25% VAT.
+		The Danes therefore only have 24% of their income.
+		Most of your income is used to pay off government debt.
 		&lt;/p&gt;
 	&lt;/div&gt;	
 &lt;/div&gt;
 &lt;div class=&quot;row featured-box-minimal&quot;&gt;
 	&lt;div class=&quot;col-md-12&quot;&gt;
-		&lt;h4&gt;&lt;i class=&quot;fa fa-users&quot;&gt;&lt;/i&gt; Finanzkrise&lt;/h4&gt;
+		&lt;h4&gt;&lt;i class=&quot;fa fa-users&quot;&gt;&lt;/i&gt; Finacial Crisis&lt;/h4&gt;
 		&lt;p&gt;
-		Aber da sind noch grössere Probleme.
-		Erinnerst du dich an Zypern 2013?
-		Dort wurden die Reichen einfach enteignet.
-		Und auserdem waren die Banken nicht in der Lage, Geld an ihre Kunden auszuzahlen.
+		But there are still bigger problems.
+		Do you remember Cyprus 2013?
+		There the rich were simply expropriated.
+		And the banks were also unable to pay money to their customers.
 		&lt;/p&gt;
 	&lt;/div&gt;	
 &lt;/div&gt;
 
 &lt;p class=&quot;lead&quot;&gt;
-Möchtest du wissen, wie man diese Situation lösen kann? Dann les weiter.
+Do you want to know how to solve this situation? Then read on.
 &lt;/p&gt;"
                     adminlabel: "Willkommen"
                 }
@@ -123,7 +124,7 @@ Möchtest du wissen, wie man diese Situation lösen kann? Dann les weiter.
 			&lt;div class=&quot;white-row&quot;&gt;
 				&lt;h3&gt;&lt;strong&gt;THX&lt;/strong&gt;&lt;/h3&gt;
 				&lt;p class=&quot;lead&quot;&gt;
-					eine neue Währung von dir selbst erschaffen.
+					 new currency create of your own.
 				&lt;/p&gt;
 			&lt;/div&gt;
 		&lt;/div&gt;
@@ -145,47 +146,47 @@ Möchtest du wissen, wie man diese Situation lösen kann? Dann les weiter.
                 Text {
                     text: "&lt;h2 class=&quot;margin-top100&quot;&gt;&lt;strong&gt;Lösung&lt;/strong&gt;&lt;/h2&gt;
 &lt;p class=&quot;lead&quot;&gt;
-	Wir schaffen uns eine App, mit der wir selbst eine Währung münzen können.
+	We are creating an app with which we can coin a currency ourselves.
 &lt;/p&gt;
 &lt;p&gt;
-	Du installierst die App auf deinem Handy und ab dann generierst du jeden Tag ein paar Münzen.&lt;/br&gt;
-	Du bekommst quasi Geld geschenkt.&lt;/br&gt;
-	Damit die Anzahl der Münzen begrenzt wird, verlieren alle Münzen über einen Zeitraum von 7 Jahre ihren Wert.
-	All das rechnet deine App natürlich für dich aus.&lt;/br&gt;
+	You install the app on your phone and then you generate a few coins every day. &lt;/br&gt;
+	You get money for free. &lt;/br&gt;
+	In order to limit the number of coins, all coins lose their value over a period of 7 years.
+	Your app will of course do all of this calculation for you. &lt;/br&gt;
 &lt;/p&gt;
 &lt;p&gt;
-	Nun legen wir einfach mal fest, das die Münze auf der Zeit basiert. Wenn du also eine Stunde Arbeit verrichtest,
-	dann bekommst du dafür 60 Münzen. Eine Münze pro Minute. &lt;/br&gt;&lt;/br&gt;
-	Wenn nun jeder, der die App hat, diese Bedingungen akzeptiert, dann haben wir ein Zahlungsmittel.&lt;/br&gt;
-	Dieses Zahlungsmittel, ist dann genau so gültig, wie der EURO oder der Dollar, zumindest bei allen, die dies akzeptieren.
-	Denn wir alle geben dieser Münze eine Bedeutung.
+	Now we just determine that the coin is based on time. So if you do an hour of work
+	then you get 60 coins for it. One coin per minute. &lt;/br&gt; &lt;/br&gt;
+	If everyone who has the app accepts these conditions, we have a means of payment. &lt;/br&gt;
+	This means of payment is then just as valid as the EURO or the dollar, at least for all who accept it.
+	Because we all give this coin a meaning.
 &lt;/p&gt;
 &lt;p&gt;
-	Wir haben diese Münze THX genannt. &lt;strong&gt;THX&lt;/strong&gt; ist die Abkürzung von dem englischen &lt;strong&gt;Thank You&lt;/strong&gt;.
-	Es soll Dankbarkeit ausdrücken. Wenn ich dir zum Beispiel eine Massage gebe und du mir &quot;tausend Dank&quot; sagst,
-	dann ist das eine Wertschätzung. Wenn du mich mit der App bezahlst, 60 THX pro Stunde, dann kommt das dem 
-	Ausspruch &quot;tausend Dank&quot; schon sehr nahe.
+	We called this coin THX. &lt;strong&gt; THX &lt;/strong&gt; is the abbreviation of &lt;strong&gt; Thank You &lt;/strong&gt;.
+	It is meant to express gratitude. For example, if I give you a massage and you say &quot;a thousand thanks&quot;
+	then that&#x27;s an appreciation. If you pay me with the app, 60 THX per hour, it comes to that
+	Saying &quot;a thousand thanks&quot; very close.
 &lt;/p&gt;
 &lt;p&gt;
-	Bezahlen tun wir, indem wir die selbstgemünzten Münzen an das Handy des Empängers übertragen. 
-	Das funktioniert ganz einfach, in dem wir einen QR-Code (Barcode) des Bezahlers einscannen und auf diese Weise
-	die Münzen erhalten. Wir benötigen also nicht mal ein Internet Zugang.
+	We do the payment by transferring the coin to the recipient&#x27;s cell phone.
+	It works very simply by scanning a QR code (barcode) of the payer and in this way
+	he or she received the coins. So we don&#x27;t even need internet access.
 &lt;/p&gt;
 &lt;p&gt;
-	Pro Tag generiert die App 10 THX für dich. Du hast also die Möglichkeit, jemanden für mehr als eine 
-	Stunde Arbeit zu bezahlen. So kommt das ganze ins Rollen. Möchtest Du mehr THX ansammeln, dann kannst Du
-	den Menschen in deiner Umgebung einen Service anbieten. Du kannst zum Beispiel Massagen geben, selbst ohne
-	Ausbildung. Jeder kann das. Du kannst den Menschen anbieten mit ihnen zu kuscheln und wirst dafür auch noch 
-	bezahlt. Oder du malst Bilder und berechnest dem Käufer das Material in EUR und deine Zeit in THX.
+	The app generates 10 THX per day for you. So you have the option to pay someone for more than one
+	hour of work. So the whole thing gets rolling. If you want to accumulate more THX, you can
+	offer a service to the people around you. For example, you can give massages, even without
+	training. Everyone can do it. You can offer people to cuddle with them and you will get THX for that. 
+	Or you can paint pictures and calculate the material for the buyer in EUR and your time in THX.
 &lt;/p&gt;
 &lt;p&gt;
-	Damit das Ganze nicht als Illegal dargestellt wird, liefern wir es als Spiel aus. Als Simulation.
-	Wir lernen also spielerisch, mit einer neuen Art von Wirtshaft umzugehen. Das befreit uns von dem Zwang,
-	arbeiten zu müssen. 
+	So that the whole thing is not presented as illegal, we deliver it as a game. As a simulation.
+	So we learn in a playful way how to deal with a new kind of economy. That frees us from the constraint
+	to have to work.
 &lt;/p&gt;
 &lt;p&gt;
-	Eventuell kannst du ja Land nutzen, um deine Lebensmittel selber anzubauen und sie gegen THX einzutauschen. 
-	Oder du besitzt Häuser und akzeptierst THX als Miete. 
+	You may be able to use land to grow your own food and exchange it for THX.
+	Or you own houses and accept THX as rent.
 &lt;/p&gt;"
                     adminlabel: "Lösung"
                 }
@@ -203,7 +204,7 @@ Möchtest du wissen, wie man diese Situation lösen kann? Dann les weiter.
                 Text {
                     text: "&lt;!-- CALLOUT --&gt;
 &lt;div class=&quot;bs-callout text-center styleBackground&quot;&gt;
-	&lt;h3&gt;Möchtest Du &lt;strong&gt;helfen&lt;/strong&gt; die App online zu bringen?&lt;a href=&quot;kraut.html&quot; target=&quot;_self&quot; class=&quot;btn btn-primary btn-lg&quot;&gt;Na klar&lt;/a&gt;&lt;/h3&gt;
+	&lt;h3&gt;Would you like to &lt;strong&gt; help &lt;/strong&gt; bring the app online?&lt;a href=&quot;kraut_en.html&quot; target=&quot;_self&quot; class=&quot;btn btn-primary btn-lg&quot;&gt;Of Course&lt;/a&gt;&lt;/h3&gt;
 &lt;/div&gt;
 &lt;!-- /CALLOUT --&gt;"
                     adminlabel: "Callout"
@@ -246,7 +247,7 @@ Möchtest du wissen, wie man diese Situation lösen kann? Dann les weiter.
 			&lt;div class=&quot;item-box-desc&quot;&gt;
 				&lt;h4&gt;Olaf Art Ananda&lt;/h4&gt;
 				&lt;small class=&quot;styleColor&quot;&gt;Monchique (+351) 969 31 28 08&lt;/small&gt;
-				&lt;p&gt;&lt;a href=&quot;mailto:artanidos@gmail.com&quot;&gt;Art&lt;/a&gt; ist derzeit in Portugal und baut dort eine Community auf.&lt;/p&gt;
+				&lt;p&gt;&lt;a href=&quot;mailto:artanidos@gmail.com&quot;&gt;Art&lt;/a&gt; is currently in Portugal and is building a community there.&lt;/p&gt;
 				&lt;div class=&quot;row socials&quot;&gt;
 					&lt;a href=&quot;https://www.facebook.com/artanidos&quot; class=&quot;social fa fa-facebook&quot;&gt;&lt;/a&gt;
 					&lt;!-- a href=&quot;#&quot; class=&quot;social fa fa-twitter&quot;&gt;&lt;/a&gt;
@@ -264,16 +265,16 @@ Möchtest du wissen, wie man diese Situation lösen kann? Dann les weiter.
                 span: 9
 
                 Text {
-                    text: "&lt;div class=&quot;white-row&quot;&gt;
-	&lt;h3&gt;Über &lt;strong&gt;Art&lt;/strong&gt;&lt;/h3&gt;
-	&lt;p&gt;&lt;strong&gt;Art&lt;/strong&gt; war lange Zeit Softwareentwickler und Designer, bis er 2014 seinen ersten Tantramassage-Workshop besucht hat.
-	Seit dem Tag hat er sein Leben komplett umgekrempelt. Er hat seinen gut bezahlten Job in der Schweiz an den Nagel gehängt.
-	Ist nach Dänemark gezogen, um endlich mit dem Leben (Kitesurfen) anzufangen. 
-	&lt;/p&gt;
-	&lt;p&gt;
-	Heute lebt Art in Portugal und baut dort das &lt;strong&gt;Camp Eden&lt;/strong&gt;, eine tantrische Gemeinschaft nach Regeln der Rainbow 
-	Familie und nach der Philosophie der Ubuntu Bewegung in Süd Afrika.
-	&lt;/p&gt;
+                    text: "&lt;div class = &quot;white-row&quot;&gt;
+&lt;h3&gt; About &lt;strong&gt;Art&lt;/strong&gt; &lt;/h3&gt;
+&lt;p&gt; &lt;strong&gt; Art &lt;/strong&gt; was a software developer and designer for a long time until he attended his first tantra massage workshop in 2014.
+Since that day he has completely changed his life. He gave up his well-paid job in Switzerland.
+Moved to Denmark to finally start life (kitesurfing).
+&lt;/p&gt;
+&lt;p&gt;
+Art now lives in Portugal and builds the &lt;strong&gt; Camp Eden &lt;/strong&gt;, a tantric community based on the rules of the Rainbow
+Family and according to the philosophy of the Ubuntu movement in South Africa.
+&lt;/p&gt;
 &lt;/div&gt;
 "
                 }

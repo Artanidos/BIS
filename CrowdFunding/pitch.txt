@@ -1,0 +1,34 @@
+Für später
+
+These prices here are just mentioned, to let you know how it will be possible to also support the other platforms.
+
+To be able to support Windows Phone I need a device which is about 120,- €.
+And I have to pay the Microsoft store which makes 100,- €.
+Development costs 500,- €.
+That makes 720,- € for WinPhone.
+
+To be able to support the iPhone I need an iPhone which is about 500,- €.
+To be able to write software for the iPhone I also need a Mac which is another 2.800,- €.
+And the Apple Store is asking for 100,- €.
+Development costs 500,- €.
+That makes 3.900,- € for iPhone.
+
+To support a cash station based on Raspberry Pi I need a Pi for 120,- €.
+I also need a screen for the Pi which costs 40,- €.
+And also a QR-scanner is needed for 40,- €.
+Development costs 500,- €.
+That makes 700,- € for the Raspberry Pi.
+
+To support a cash station based on Linux I need additional 500,- €.
+
+To support a cash station based on Windows I need additional 500,- €.
+
+To support a cash station based on Mac I need additional 500,- €.
+
+To create an amazing visual design I would invest 500,- € into a 99designs campaign.
+
+All together that will make 10.735,- €.
+I have to give 10 % to IndiGoGo, so 1074,- €.
+Summary 11.809,- €
+
+If I collect more money than this 3.415.- €, I will use it for the next THX projects (WinPhone, iPhone and the desktop versions).

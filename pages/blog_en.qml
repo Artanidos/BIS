@@ -47,7 +47,7 @@ Content {
 &lt;/p&gt;
 
 &lt;!-- read more button --&gt;
-&lt;a href=&quot;{{ post.url }}&quot; class=&quot;btn btn-xs&quot;&gt;&lt;i class=&quot;fa fa-sign-out&quot;&gt;&lt;/i&gt; LES WEITER&lt;/a&gt;
+&lt;a href=&quot;{{ post.url }}&quot; class=&quot;btn btn-xs&quot;&gt;&lt;i class=&quot;fa fa-sign-out&quot;&gt;&lt;/i&gt; READ MORE&lt;/a&gt;
 &lt;/div&gt;
 &lt;!-- /blog item --&gt;
 {% endfor %}

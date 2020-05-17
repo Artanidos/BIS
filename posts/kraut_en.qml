@@ -3,13 +3,13 @@ import ImageEditor 1.0
 import TextEditor 1.0
 
 Content {
-    title: "CrowdFunding (DE)"
-    menu: "blog"
+    title: "CrowdFunding (EN)"
+    menu: "blog_en"
     author: "Artanidos"
     keywords: "indiegogo,thx,funding,help"
     layout: "post"
     date: "2020-05-16"
-    excerpt: "Wir haben gerade angefangen, etwas Geld zu sammeln, um die erste Version von THX für Android erstellen zu können..."
+    excerpt: "We are about to crowd fund the first app for Android..."
 
     Section {
 
@@ -32,16 +32,16 @@ Content {
                     text: "&lt;div class=&quot;white-row&quot;&gt;
 &lt;h3&gt;&lt;strong&gt;Crowd Funding&lt;/strong&gt;&lt;/h3&gt;
 &lt;p class=&quot;lead&quot;&gt;
-	Wir haben gerade angefangen, etwas Geld zu sammeln, um die erste Version von THX für Android erstellen zu können.
+	We are just started to crowd fund some money to be able to build the first version of THX for Android.
 &lt;/p&gt;
 
 &lt;p&gt;
-	Du kannst dies ermöglichen ... &lt;/ br&gt;
-	Ich lade Dich ein, dich unsere Kampagne anzusehen, eine Spende zu leisten und die Idee an Deine Freunde weiterzugeben. &lt;/ br&gt;	
-	Hier ist der Link zu &lt;a href=&quot;https://www.indiegogo.com/projects/thx&quot;&gt; IndieGoGo &lt;/a&gt;.
+	You can make this happen...&lt;/br&gt;
+	I invite you to have a look at our campaign, make a donation and share the idea to your friends.&lt;/br&gt;
+	Here is the link to &lt;a href=&quot;https://www.indiegogo.com/projects/thx&quot;&gt;IndieGoGo&lt;/a&gt;.
 &lt;/p&gt;
 &lt;p class=&quot;lead&quot;&gt;
-	Wir können JETZT gemeinsam ein besseres Morgen schaffen.
+	We can create a better tommorow together right NOW.
 &lt;/p&gt;
 &lt;p&gt;
 	Olaf Art Ananda
@@ -62,10 +62,9 @@ Content {
                 Text {
                     text: "&lt;!-- CALLOUT --&gt;
 &lt;div class=&quot;bs-callout text-center styleBackground&quot;&gt;
-	&lt;h3&gt;&lt;strong&gt;Hier&lt;/strong&gt; geht es zu unser CrowFunding Campagne&lt;a href=&quot;https://www.indiegogo.com/projects/thx&quot; target=&quot;_self&quot; class=&quot;btn btn-primary btn-lg&quot;&gt;Ich bin dabei&lt;/a&gt;&lt;/h3&gt;
+	&lt;h3&gt;&lt;strong&gt;Here&lt;/strong&gt; you will get to our crow funding campaigne&lt;a href=&quot;https://www.indiegogo.com/projects/thx&quot; target=&quot;_self&quot; class=&quot;btn btn-primary btn-lg&quot;&gt;I AM IN&lt;/a&gt;&lt;/h3&gt;
 &lt;/div&gt;
-&lt;!-- /CALLOUT --&gt;
-"
+&lt;!-- /CALLOUT --&gt;"
                     adminlabel: "Callout"
                 }
             }
