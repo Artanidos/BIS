@@ -144,7 +144,7 @@ Do you want to know how to solve this situation? Then read on.
                 span: 12
 
                 Text {
-                    text: "&lt;h2 class=&quot;margin-top100&quot;&gt;&lt;strong&gt;Lösung&lt;/strong&gt;&lt;/h2&gt;
+                    text: "&lt;h2 class=&quot;margin-top100&quot;&gt;&lt;strong&gt;Solution&lt;/strong&gt;&lt;/h2&gt;
 &lt;p class=&quot;lead&quot;&gt;
 	We are creating an app with which we can coin a currency ourselves.
 &lt;/p&gt;
