@@ -3,7 +3,7 @@ import RevolutionSlider 1.0
 import TextEditor 1.0
 
 Content {
-    title: "THX - Basic Income Simulator"
+    title: "THX - Eco Flow Simulator"
     menu: "default_en"
     author: "Olaf"
     layout: "default"
@@ -35,7 +35,7 @@ Content {
 
                 Text {
                     text: "&lt;h1&gt;
-	&lt;strong&gt;Welcome&lt;/strong&gt; to THX - Basic Income Simulator
+	&lt;strong&gt;Welcome&lt;/strong&gt; to THX - Eco Flow Simulator
 	&lt;span class=&quot;subtitle&quot;&gt;WE ARE HAPPY THAT YOU HAVE FOUND US&lt;/span&gt;
 &lt;/h1&gt;
 
