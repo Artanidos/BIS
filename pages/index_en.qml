@@ -282,7 +282,7 @@ Family and according to the philosophy of the Ubuntu movement in South Africa.
 
                 Text {
                     text: "&lt;div class=&quot;white-row&quot;&gt;
-&lt;h3&gt;&lt;strong&gt;Ausbildung&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3&gt;&lt;strong&gt;Education&lt;/strong&gt;&lt;/h3&gt;
 &lt;ul&gt;
 	&lt;li&gt;Lomi Lomi Nui 2 (Anja und Jana Goralski)&lt;/li&gt;
 	&lt;li&gt;Lomi Lomi Nui 1 (Anja und Jana Goralski)&lt;/li&gt;
