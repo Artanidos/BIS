@@ -35,7 +35,7 @@ Content {
 
                 Text {
                     text: "&lt;h1&gt;
-	&lt;strong&gt;Welcome&lt;/strong&gt; to THX - Eco Flow Simulator
+	&lt;strong&gt;Welcome&lt;/strong&gt; to Eco Flow Simulator
 	&lt;span class=&quot;subtitle&quot;&gt;WE ARE HAPPY THAT YOU HAVE FOUND US&lt;/span&gt;
 &lt;/h1&gt;
 
@@ -44,7 +44,7 @@ Content {
 	&lt;div class=&quot;col-md-12&quot;&gt;
 		&lt;h4&gt;&lt;i class=&quot;fa fa-tag&quot;&gt;&lt;/i&gt; Small Business&lt;/h4&gt;
 		&lt;p&gt; 
-		You have created a small business, but not many customers.
+		You have created a small business, but you don&#x27;t many customers.
 		Your potential customers don&#x27;t have enough money to pay for your service.
 		&lt;/p&gt;
 	&lt;/div&gt;
@@ -124,7 +124,7 @@ Do you want to know how to solve this situation? Then read on.
 			&lt;div class=&quot;white-row&quot;&gt;
 				&lt;h3&gt;&lt;strong&gt;THX&lt;/strong&gt;&lt;/h3&gt;
 				&lt;p class=&quot;lead&quot;&gt;
-					 new currency create of your own.
+					 new currency created on your own.
 				&lt;/p&gt;
 			&lt;/div&gt;
 		&lt;/div&gt;
@@ -146,7 +146,8 @@ Do you want to know how to solve this situation? Then read on.
                 Text {
                     text: "&lt;h2 class=&quot;margin-top100&quot;&gt;&lt;strong&gt;Solution&lt;/strong&gt;&lt;/h2&gt;
 &lt;p class=&quot;lead&quot;&gt;
-	We are creating an app with which we can coin a currency ourselves.
+	We are creating an app with which we can coin a currency ourselves. 
+	Or better call it a &lt;strong&gt;liquid&lt;/strong&gt; to keep the &lt;strong&gt;economy flowing&lt;/strong&gt;.
 &lt;/p&gt;
 &lt;p&gt;
 	You install the app on your phone and then you generate a few coins every day. &lt;/br&gt;

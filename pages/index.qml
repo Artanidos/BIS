@@ -35,7 +35,7 @@ Content {
 
                 Text {
                     text: "&lt;h1&gt;
-	&lt;strong&gt;Willkommen&lt;/strong&gt; bei THX - Eco Flow Simulator
+	&lt;strong&gt;Willkommen&lt;/strong&gt; bei Eco Flow Simulator
 	&lt;span class=&quot;subtitle&quot;&gt;WIR SIND SEHR FROH DAS DU UNS GEFUNDEN HAST&lt;/span&gt;
 &lt;/h1&gt;
 &lt;p class=&quot;lead&quot;&gt;Wir haben die folgende Situation&lt;/p&gt;
@@ -146,6 +146,8 @@ Möchtest du wissen, wie man diese Situation lösen kann? Dann les weiter.
                     text: "&lt;h2 class=&quot;margin-top100&quot;&gt;&lt;strong&gt;Lösung&lt;/strong&gt;&lt;/h2&gt;
 &lt;p class=&quot;lead&quot;&gt;
 	Wir schaffen uns eine App, mit der wir selbst eine Währung münzen können.
+	Oder sagen wir besser, wie schaffen eine &lt;strong&gt;Flüssigkeit&lt;/strong&gt;, 
+	mit der wir die &lt;strong&gt;Wirtschaft&lt;/strong&gt; am &lt;strong&gt;Fließen&lt;/strong&gt; halten.
 &lt;/p&gt;
 &lt;p&gt;
 	Du installierst die App auf deinem Handy und ab dann generierst du jeden Tag ein paar Münzen.&lt;/br&gt;
