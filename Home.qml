@@ -26,7 +26,7 @@ import QtQuick.Layouts 1.0
 
 Page 
 {
-	title: "Basic Income"
+	title: "Eco Flow"
 	ColumnLayout
 	{
     
