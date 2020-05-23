@@ -215,6 +215,25 @@ Do you want to know how to solve this situation? Then read on.
     }
 
     Section {
+
+        Row {
+
+            Column {
+                span: 12
+
+                Text {
+                    text: "&lt;!-- CALLOUT --&gt;
+&lt;div class=&quot;bs-callout text-center styleBackground&quot;&gt;
+	&lt;h3&gt;Would you like to &lt;strong&gt; earn &lt;/strong&gt; something, advertising for the app?&lt;a href=&quot;help_en.html&quot; target=&quot;_self&quot; class=&quot;btn btn-primary btn-lg&quot;&gt;Of Course&lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;!-- /CALLOUT --&gt;"
+                    adminlabel: "Callout"
+                }
+            }
+        }
+    }
+
+    Section {
         id:  team
 
         Row {

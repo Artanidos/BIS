@@ -146,7 +146,7 @@ Möchtest du wissen, wie man diese Situation lösen kann? Dann les weiter.
                     text: "&lt;h2 class=&quot;margin-top100&quot;&gt;&lt;strong&gt;Lösung&lt;/strong&gt;&lt;/h2&gt;
 &lt;p class=&quot;lead&quot;&gt;
 	Wir schaffen uns eine App, mit der wir selbst eine Währung münzen können.
-	Oder sagen wir besser, wie schaffen eine &lt;strong&gt;Flüssigkeit&lt;/strong&gt;, 
+	Oder sagen wir besser, wie schaffen eine &lt;strong&gt;Flüssigkeit&lt;/strong&gt; (Liquid), 
 	mit der wir die &lt;strong&gt;Wirtschaft&lt;/strong&gt; am &lt;strong&gt;Fließen&lt;/strong&gt; halten.
 &lt;/p&gt;
 &lt;p&gt;
@@ -205,7 +205,26 @@ Möchtest du wissen, wie man diese Situation lösen kann? Dann les weiter.
                 Text {
                     text: "&lt;!-- CALLOUT --&gt;
 &lt;div class=&quot;bs-callout text-center styleBackground&quot;&gt;
-	&lt;h3&gt;Möchtest Du &lt;strong&gt;helfen&lt;/strong&gt; die App online zu bringen?&lt;a href=&quot;kraut.html&quot; target=&quot;_self&quot; class=&quot;btn btn-primary btn-lg&quot;&gt;Na klar&lt;/a&gt;&lt;/h3&gt;
+	&lt;h3&gt;Möchtest Du mit deiner Spende &lt;strong&gt;helfen&lt;/strong&gt; die App online zu bringen?&lt;a href=&quot;kraut.html&quot; target=&quot;_self&quot; class=&quot;btn btn-primary btn-lg&quot;&gt;Na klar&lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;!-- /CALLOUT --&gt;"
+                    adminlabel: "Callout"
+                }
+            }
+        }
+    }
+
+    Section {
+
+        Row {
+
+            Column {
+                span: 12
+
+                Text {
+                    text: "&lt;!-- CALLOUT --&gt;
+&lt;div class=&quot;bs-callout text-center styleBackground&quot;&gt;
+	&lt;h3&gt;Möchtest Du helfen die App online zu bringen und dabei etwas &lt;strong&gt;verdienen&lt;/strong&gt;?&lt;a href=&quot;help.html&quot; target=&quot;_self&quot; class=&quot;btn btn-primary btn-lg&quot;&gt;Na klar&lt;/a&gt;&lt;/h3&gt;
 &lt;/div&gt;
 &lt;!-- /CALLOUT --&gt;"
                     adminlabel: "Callout"
