@@ -174,7 +174,7 @@ Do you want to know how to solve this situation? Then read on.
 	he or she received the coins. So we don&#x27;t even need internet access.
 &lt;/p&gt;
 &lt;p&gt;
-	The app generates 10 THX per day for you. So you have the option to pay someone for more than one
+	The app generates 10 THX per day for you. So you have the option, after one week, to pay someone for more than one
 	hour of work. So the whole thing gets rolling. If you want to accumulate more THX, you can
 	offer a service to the people around you. For example, you can give massages, even without
 	training. Everyone can do it. You can offer people to cuddle with them and you will get THX for that. 
