@@ -189,7 +189,7 @@ Do you want to know how to solve this situation? Then read on.
 	You may be able to use land to grow your own food and exchange it for THX.
 	Or you own houses and accept THX as rent.
 &lt;/p&gt;"
-                    adminlabel: "Lösung"
+                    adminlabel: "Solution"
                 }
             }
         }
@@ -215,6 +215,35 @@ Do you want to know how to solve this situation? Then read on.
     }
 
     Section {
+        cssclass: "parallax margin-top80"
+        style: "background-image: url('assets/images/natur2.jpg');"
+        attributes: "data-stellar-background-ratio='0.7'"
+
+        Row {
+
+            Column {
+                span: 12
+
+                Text {
+                    text: "&lt;div class=&quot;container&quot;&gt;
+	&lt;div class=&quot;row animation_fade_in&quot;&gt;
+		&lt;div class=&quot;col-md-6&quot;&gt;
+			&lt;div class=&quot;white-row&quot;&gt;
+				&lt;h3&gt;&lt;strong&gt;HELP&lt;/strong&gt;&lt;/h3&gt;
+				&lt;p class=&quot;lead&quot;&gt;
+					now to make this happen and earn some coins.
+				&lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;"
+                    adminlabel: "Parallax"
+                }
+            }
+        }
+    }
+
+    Section {
 
         Row {
 
@@ -228,6 +257,67 @@ Do you want to know how to solve this situation? Then read on.
 &lt;/div&gt;
 &lt;!-- /CALLOUT --&gt;"
                     adminlabel: "Callout"
+                }
+            }
+        }
+    }
+
+    Section {
+
+        Row {
+
+            Column {
+                span: 12
+
+                Text {
+                    text: "&lt;h2 class = &quot;margin-top100&quot;&gt; &lt;strong&gt; Options &lt;/strong&gt; &lt;/h2&gt;
+&lt;p class = &quot;lead&quot;&gt;
+	We create the app, publish it as open source and you can adapt it to your needs,
+	to be able to use it for your exchange ring for example.
+&lt;/p&gt;
+&lt;p&gt;
+	Do you know the &lt;strong&gt; info money &lt;/strong&gt; that Professor Franz Hörmann proposed? &lt;/br&gt;
+	We can also implement that. However, I&#x27;m not sure how exactly he means it,
+	but a variant could be that a student who delivers the advertisement or the newspaper takes 60 THX
+	per hour. A locksmith who has learned his profession for three years receives 60 THX per hour times factor 2.
+	That makes 120 THX per hour. A computer scientist who has studied for 6 years gets 60 THX per hour times factor 3.
+	That makes 180 THX per hour. So the earnings are analogous to the current system. &lt;/br&gt; &lt;/br&gt;
+	Since information money is now asynchronous, a computer scientist pays one hour at 180 THX an hour,
+	the student is only credited with 60 THX. &lt;/br&gt;
+	You can choose how exactly this is to be converted. &lt;/b&gt;
+	We can find a &lt;strong&gt; consensus &lt;/strong&gt; about this. True to the motto of Michael Tellinger (UBUNTU Movement). &lt;/br&gt;
+	&quot;If it&#x27;s not good for everyone, it&#x27;s not good at all.&quot;
+&lt;/p&gt;"
+                    adminlabel: "Options"
+                }
+            }
+        }
+    }
+
+    Section {
+        cssclass: "parallax margin-top80"
+        style: "background-image: url('assets/images/natur3.jpg');"
+        attributes: "data-stellar-background-ratio='0.7'"
+
+        Row {
+
+            Column {
+                span: 12
+
+                Text {
+                    text: "&lt;div class=&quot;container&quot;&gt;
+	&lt;div class=&quot;row animation_fade_in&quot;&gt;
+		&lt;div class=&quot;col-md-6&quot;&gt;
+			&lt;div class=&quot;white-row&quot;&gt;
+				&lt;h3&gt;Let &lt;strong&gt;US&lt;/strong&gt; together&lt;/h3&gt;
+				&lt;p class=&quot;lead&quot;&gt;
+				 create a new economy, where we’re no longer exploited.
+				&lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;"
+                    adminlabel: "Parallax"
                 }
             }
         }

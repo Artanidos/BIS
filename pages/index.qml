@@ -215,6 +215,35 @@ Möchtest du wissen, wie man diese Situation lösen kann? Dann les weiter.
     }
 
     Section {
+        cssclass: "parallax margin-top80"
+        style: "background-image: url('assets/images/natur2.jpg');"
+        attributes: "data-stellar-background-ratio='0.7'"
+
+        Row {
+
+            Column {
+                span: 12
+
+                Text {
+                    text: "&lt;div class=&quot;container&quot;&gt;
+	&lt;div class=&quot;row animation_fade_in&quot;&gt;
+		&lt;div class=&quot;col-md-6&quot;&gt;
+			&lt;div class=&quot;white-row&quot;&gt;
+				&lt;h3&gt;&lt;strong&gt;HELF&lt;/strong&gt;&lt;/h3&gt;
+				&lt;p class=&quot;lead&quot;&gt;
+					uns jetzt, um das Ganze möglich zu machen.
+				&lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;"
+                    adminlabel: "Parallax"
+                }
+            }
+        }
+    }
+
+    Section {
 
         Row {
 
@@ -228,6 +257,67 @@ Möchtest du wissen, wie man diese Situation lösen kann? Dann les weiter.
 &lt;/div&gt;
 &lt;!-- /CALLOUT --&gt;"
                     adminlabel: "Callout"
+                }
+            }
+        }
+    }
+
+    Section {
+
+        Row {
+
+            Column {
+                span: 12
+
+                Text {
+                    text: "&lt;h2 class=&quot;margin-top100&quot;&gt;&lt;strong&gt;Optionen&lt;/strong&gt;&lt;/h2&gt;
+&lt;p class=&quot;lead&quot;&gt;
+	Wir erstellen die App, veröffentlichen sie als Open Source und du kannst sie an deine Bedürfnisse anpassen, 
+	um sie evtl. für deinen Tauschring nutzen zu können.
+&lt;/p&gt;
+&lt;p&gt;
+	Kennst du das &lt;strong&gt;Informationsgeld&lt;/strong&gt;, das Professor Franz Hörmann vorgeschlagen hat?&lt;/br&gt;
+	Auch das können wir implementieren. Ich bin mir allerdings nicht sicher, wie genau er es meint, 
+	aber eine Variante könnte sein, das ein Schüler der Werbung oder die Zeitung ausfährt, bekommt 60 THX
+	pro Stunde. Ein Schlosser, der drei Jahre lang seinen Beruf gelernt hat, bekommt 60 THX pro Stunde mal Faktor 2.
+	Das macht 120 THX pro Stunde. Ein Informatiker, der 6 Jahre lang studiert hat bekommt 60 THX pro Stunde mal Faktor 3.
+	Das macht dann 180 THX pro Stunde. Somit ist der Verdienst analog dem jetzigen System.&lt;/br&gt;&lt;/br&gt;
+	Da Informationsgeld nun aber asynchron ist, bezahlt ein Informatiker einen Stunden mit 180 THX pro Stunde,
+	der Student bekommt aber nur 60 THX gutgeschrieben.&lt;/br&gt;
+	Wie genau das umzurechnen ist, das dürft ihr euch aussuchen. &lt;/b&gt;
+	Darüber können wir einen &lt;strong&gt;Konsens&lt;/strong&gt; finden. Ganz nach dem Motto von Michael Tellinger (UBUNTU Movement).&lt;/br&gt;
+	&quot;Wenn es nicht für jeden gut ist, dann ist es überhaupt nicht gut.&quot;
+&lt;/p&gt;"
+                    adminlabel: "Options"
+                }
+            }
+        }
+    }
+
+    Section {
+        cssclass: "parallax margin-top80"
+        style: "background-image: url('assets/images/natur3.jpg');"
+        attributes: "data-stellar-background-ratio='0.7'"
+
+        Row {
+
+            Column {
+                span: 12
+
+                Text {
+                    text: "&lt;div class=&quot;container&quot;&gt;
+	&lt;div class=&quot;row animation_fade_in&quot;&gt;
+		&lt;div class=&quot;col-md-6&quot;&gt;
+			&lt;div class=&quot;white-row&quot;&gt;
+				&lt;h3&gt;Lass &lt;strong&gt;UNS&lt;/strong&gt; gemeinsam&lt;/h3&gt;
+				&lt;p class=&quot;lead&quot;&gt;
+					einen neue Wirtschaft erschaffen, in der wir nicht mehr ausgebeutet werden.
+				&lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;"
+                    adminlabel: "Parallax"
                 }
             }
         }
