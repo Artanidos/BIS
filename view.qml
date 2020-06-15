@@ -27,9 +27,11 @@ ApplicationWindow
 {
 	visible: true
 	id: window
+    width: 400
+    height: 650
     header: ToolBar 
     {
-    	height: 70
+    	height: window.height / 15
     	Material.background: Material.Green
         ToolButton 
         {
@@ -37,7 +39,7 @@ ApplicationWindow
             anchors.left: parent.left
             anchors.verticalCenter: parent.verticalCenter
             text: stackview.depth > 1 ? "⬅" : "≡"
-            font.pixelSize: 50
+            font.pixelSize: window.height / 20
             onClicked: 
             {
                     if (stackview.depth > 1) 
@@ -55,7 +57,7 @@ ApplicationWindow
         {
             anchors.centerIn: parent
             text: stackview.currentItem.title
-            font.pixelSize: 50
+            font.pixelSize: window.height / 25
             elide: Label.ElideRight
         }
     }
@@ -85,7 +87,7 @@ ApplicationWindow
             {
                 width: parent.width
                 text: model.text
-                font.pixelSize: 40
+                font.pixelSize: window.height / 30
                 highlighted: ListView.isCurrentItem
                 onClicked: 
                 {

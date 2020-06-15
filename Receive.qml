@@ -25,7 +25,10 @@ import QtQuick.Layouts 1.0
 
 Page 
 {
+	id: page
 	title: "Receive"
+	property int hours: 4
+	property int minutes: 30
 	
 	Column 
 	{
@@ -44,6 +47,57 @@ Page
 				source: "images/minutes.png"
 			} 
 		} 
+
+		Rectangle
+		{
+			id: grade
+			color: "#CCCCCC"
+			height: 150
+			
+			anchors.right: parent.right
+			anchors.left: parent.left
+			anchors.margins: 50
+
+			Column
+			{
+				Text 
+				{
+    				text: "Grade"
+    			} 
+				Row
+				{
+					RadioButton
+					{
+						id: min
+						width: 150
+						height: 150
+						font.pixelSize: 40
+						text: "MIN"
+						checked: true
+						
+					}
+
+					RadioButton
+					{
+						id: mid
+						width: 150
+						height: 150
+						font.pixelSize: 40
+						text: "MED"
+						
+					}
+
+					RadioButton
+					{
+						id: max
+						width: 150
+						height: 150
+						font.pixelSize: 40
+						text: "MAX"
+					}
+				}
+			}
+		}
 	
 		Rectangle 
 		{
@@ -52,6 +106,7 @@ Page
     		color: "#C0C0C0"
     		anchors.right: parent. right
     		anchors.left: parent.left
+		
     		anchors.margins: 150
     		Text 
 			{
@@ -60,8 +115,18 @@ Page
     		Text 
 			{
     			font.pixelSize: 100
-    			text: "260"
+    			text: amount()
     			anchors.centerIn: parent
+
+				function amount()
+				{
+					var am = hours * 60 + minutes
+					if (mid.checked)
+						am *= 1.5
+					else if (max.checked)
+						am *= 2
+					return am
+				}
     		} 
     		Text 
 			{

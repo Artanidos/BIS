@@ -26,193 +26,192 @@ import QtQuick.Layouts 1.0
 
 Page 
 {
-	title: "Eco Flow"
-	ColumnLayout
-	{
-    
-    	Rectangle 
-		{
-    		id: display
-    		height: 200
-    		color: "#C0C0C0"
-    		anchors.top: parent.top
-    		anchors.right: parent. right
-    		anchors.left: parent.left
-    		anchors.margins: 50
-    		Text 
-			{
-    			text: "Balance"
-    		} 
-    		Text 
-			{
-    			font.pixelSize: 100
-    			text: "1.450"
-    			anchors.centerIn: parent
-    		} 
-    		Text 
-			{
-    			anchors.right: parent. right
-    			anchors. bottom: parent.bottom
-    			text: "THX"
-    		} 
-   	 	}
-   	 
-    
-    	Row 
-		{
-    		id: buttons
-    		width: parent.width
-        	spacing: 50
-        	anchors.top: display.bottom
-        	anchors.left: parent.left
-        	anchors.right: parent.right
-        	anchors.margins: 56
-    
-    		Button 
-			{
-    			width: 170
-    			height: 150
-    			Material.background: Material.Green
-    			
-    			Text 
-				{
-    				anchors.centerIn: parent
-    				font.pixelSize: 40
-    				color: "#ffffff"
-    				text: "Pay"
-    			} 
-    		} 
-    	
-    		Button 
-			{
-    			width: 170
-    			height: 150
-    			Material.background: Material.Green
-    		
-    			Text 
-				{
-    				anchors.centerIn: parent
-    				font.pixelSize: 40
-    				color: "#ffffff"
-  	  				text: "Send"
- 	   			} 
-	    	} 
-    	
-    		Button 
-			{
-  	  			width: 170
- 	   			height: 150
-    			Material.background: Material.Green
-    		
-    			Text 
-				{
-    				anchors.centerIn: parent
-    				font.pixelSize: 40
-    				color: "#ffffff"
-   	 				text: "Receive"
-    			} 
-   	 			onClicked: stackview.push("receive.qml") 
- 	   		} 
-	    }
+	id: page
+	title: "Eco Flow Simulator"
 
+	Rectangle 
+	{
+    	id: display
+    	height: page.height / 4
+    	color: "#C0C0C0"
+    	anchors.top: parent.top
+    	anchors.right: parent. right
+    	anchors.left: parent.left
+    	anchors.margins: page.width / 10
+    	Text 
+		{
+			font.pixelSize: page.width / 20
+    		text: "Balance"
+    	} 
+    	Text 
+		{
+    		font.pixelSize: page.width / 5
+    		text: 1130 - 60
+    		anchors.centerIn: parent
+    	} 
+    	Text 
+		{
+    		anchors.right: parent. right
+    		anchors. bottom: parent.bottom
+			font.pixelSize: page.width / 20
+    		text: "THX"
+    	} 
+	}
+
+	Button 
+	{
+		id: pay
+    	width: display.width / 3 - (page.width / 20)
+    	height: page.height / 6
+    	Material.background: Material.Green
+		anchors.top: display.bottom
+		anchors.left: display.left
+    	Text 
+		{
+    		anchors.centerIn: parent
+    		font.pixelSize: page.height / 25
+    		color: "#ffffff"
+    		text: "Pay"
+    	} 
+    } 
+
+	Button 
+	{
+    	width: display.width / 3 - (page.width / 20)
+    	height: page.height / 6
+    	Material.background: Material.Green
+		anchors.top: display.bottom
+		anchors.horizontalCenter: parent.horizontalCenter
+    	Text 
+		{
+    		anchors.centerIn: parent
+    		font.pixelSize: page.height / 25
+    		color: "#ffffff"
+  			text: "Send"
+		} 
+   	} 
+    	
+	Button 
+	{
+		id: receive
+		width: display.width / 3 - (page.width / 20)
+		height: page.height / 6
+		Material.background: Material.Green
+    	anchors.top: display.bottom
+		anchors.right: display.right
 		Text 
 		{
-			id: caption
-			anchors.top: buttons.bottom
-			anchors.left: parent.left
-			anchors.topMargin: 100
-			anchors.leftMargin: 50
-			text: "Latest Bookings"
-		} 
-		Rectangle 
+    		anchors.centerIn: parent
+    		font.pixelSize: page.height / 25
+    		color: "#ffffff"
+   			text: "Receive"
+    	} 
+   		onClicked: stackview.push("Receive.qml") 
+ 	} 
+
+	Text 
+	{
+		id: caption
+		anchors.top: pay.bottom
+		anchors.left: pay.left
+		anchors.topMargin: page.height / 100
+		text: "Latest Bookings"
+	} 
+
+	Rectangle 
+	{
+		anchors.right: parent. right
+   		anchors.left: parent.left
+   		anchors.leftMargin: page.width / 10
+    	anchors.rightMargin: page.width / 10
+    	anchors.topMargin: page.width / 100
+	    anchors.top: caption.bottom
+	    anchors.bottom: parent.bottom
+	    color: "#EEEEEE"
+	   	ListView 
 		{
-			anchors.right: parent. right
-   	 		anchors.left: parent.left
-   	 		anchors.leftMargin: 50
-    		anchors.rightMargin: 50
-    		anchors.topMargin: 10
-		    anchors.top: caption.bottom
-		    height: 800
-		    color: "#EEEEEE"
-	    	ListView 
+	   		clip: true
+	    	anchors.fill: parent
+	   		anchors.margins: page.width / 100
+	   		spacing: page.width / 100
+	    	
+	    	delegate: listDelegate
+	    	
+	   		Component 
 			{
-	 	   		clip: true
-		    	anchors.fill: parent
-	    		anchors.margins: 5
-	 	   		spacing: 5
-	    	
-		    	delegate: listDelegate
-	    	
-	    		Component 
-				{
-	 	   			id: listDelegate
+	   			id: listDelegate
 	    		
-	    			Rectangle 
-					{
-	   	 				width: parent.width 
-	    				height: 40
-	    				Text 
-						{
-	    					id: date
-	    					text: model.date
-	    					font.pixelSize: 30
-	    				} 
-	    				Text 
-						{
-	    					anchors.left: date.right
-	    					anchors.leftMargin: 15
-	    					text: model.text 
-	    					font.pixelSize: 30
-	   	 				} 
-	   	 				Text 
-						{
-	   	 					anchors.right: parent.right
-	   	 					text: model.amount + " THX"
-	   	 					font.pixelSize: 30
-	   	 				} 
-		    		} 
-		    	} 
-	    	
-	    		model: ListModel 
+	   			Rectangle 
 				{
-    	            ListElement 
+	 				width: parent.width 
+	   				height: page.height / 20
+	   				Text 
 					{
-    	            	date: "23.04.2020"
-                 	   	text: "Basic Income"
-                 	   	amount: 10
-         	       	}
-     	           	ListElement 
+	   					id: date
+	   					text: model.date
+	   					font.pixelSize: page.height / 40
+	   				} 
+	   				Text 
 					{
-     	           		date: "22.04.2020"
-                		text: "Basic Income"
-                		amount: 10
-         	       	}
-      	          	ListElement 
+	   					anchors.left: date.right
+	   					anchors.leftMargin: 15
+	   					text: model.text 
+	   					font.pixelSize: page.height / 40
+	 				} 
+	 				Text 
 					{
-      	          		date: "21.04.2020"
-                		text: "Basic Income"
-                		amount: 10
-          	      	}
-          	      	ListElement 
-					{
-      	          		date: "21.04.2020"
-                		text: "Payment"
-                		amount: - 60
-          	      	}
-          	      	ListElement 
-					{
-      	          		date: "21.04.2020"
-                		text: "Massage"
-                		amount: 90
-          	      	}
-          	      	ListElement 
-					{
-      	          		date: "20.04.2020"
-                		text: "Basic Income"
-                		amount: 10
-          	      	}
-	    		}
-            }
-	    }
-    }
+						anchors.right: parent.right
+	 					text: model.amount + " THX"
+	 					font.pixelSize: page.height / 40
+	 				} 
+	    		} 
+	    	} 
+	    	
+	   		model: ListModel 
+			{
+                ListElement 
+				{
+                	date: "23.04.2020"
+               	   	text: "Liquid created"
+               	   	amount: 10
+       	       	}
+               	ListElement 
+				{
+               		date: "22.04.2020"
+               		text: "Liquid created"
+               		amount: 10
+       	       	}
+              	ListElement 
+				{
+              		date: "21.04.2020"
+               		text: "Liquid created"
+               		amount: 10
+       	      	}
+       	      	ListElement 
+				{
+              		date: "21.04.2020"
+               		text: "Payment"
+               		amount: - 60
+       	      	}
+       	      	ListElement 
+				{
+              		date: "21.04.2020"
+               		text: "Massage"
+               		amount: 90
+       	      	}
+       	      	ListElement 
+				{
+              		date: "20.04.2020"
+               		text: "Liquid created"
+               		amount: 10
+       	      	}
+				ListElement 
+				{
+              		date: "19.04.2020"
+               		text: "In App Purchase"
+              		amount: 1000
+       	      	}	
+	   		}
+        }
+	}
 } 

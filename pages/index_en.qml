@@ -196,25 +196,6 @@ Do you want to know how to solve this situation? Then read on.
     }
 
     Section {
-
-        Row {
-
-            Column {
-                span: 12
-
-                Text {
-                    text: "&lt;!-- CALLOUT --&gt;
-&lt;div class=&quot;bs-callout text-center styleBackground&quot;&gt;
-	&lt;h3&gt;Would you like to &lt;strong&gt; help &lt;/strong&gt; bring the app online?&lt;a href=&quot;kraut_en.html&quot; target=&quot;_self&quot; class=&quot;btn btn-primary btn-lg&quot;&gt;Of Course&lt;/a&gt;&lt;/h3&gt;
-&lt;/div&gt;
-&lt;!-- /CALLOUT --&gt;"
-                    adminlabel: "Callout"
-                }
-            }
-        }
-    }
-
-    Section {
         cssclass: "parallax margin-top80"
         style: "background-image: url('assets/images/natur2.jpg');"
         attributes: "data-stellar-background-ratio='0.7'"
@@ -251,12 +232,18 @@ Do you want to know how to solve this situation? Then read on.
                 span: 12
 
                 Text {
-                    text: "&lt;!-- CALLOUT --&gt;
-&lt;div class=&quot;bs-callout text-center styleBackground&quot;&gt;
-	&lt;h3&gt;Would you like to &lt;strong&gt; earn &lt;/strong&gt; something, advertising for the app?&lt;a href=&quot;help_en.html&quot; target=&quot;_self&quot; class=&quot;btn btn-primary btn-lg&quot;&gt;Of Course&lt;/a&gt;&lt;/h3&gt;
-&lt;/div&gt;
-&lt;!-- /CALLOUT --&gt;"
-                    adminlabel: "Callout"
+                    text: "&lt;h2 class = &quot;margin-top100&quot;&gt; &lt;strong&gt; Help &lt;/strong&gt; &lt;/h2&gt;
+&lt;p class = &quot;lead&quot;&gt;
+Advertising a free app without a budget? &lt;/br&gt;
+Is that even possible?
+&lt;/p&gt;
+&lt;p&gt;
+In order for you to be able to pay with the app, you naturally need others who accept the THX as a method of payment.
+It is therefore imperative that the idea behind the app is widely disseminated.
+Unfortunately, we don&#x27;t have enough capital to fund advertising for the app and the THX,
+that&#x27;s why we rely on &lt;strong&gt; your help &lt;/strong&gt;.
+&lt;/p&gt;"
+                    adminlabel: "Help"
                 }
             }
         }
@@ -270,25 +257,12 @@ Do you want to know how to solve this situation? Then read on.
                 span: 12
 
                 Text {
-                    text: "&lt;h2 class = &quot;margin-top100&quot;&gt; &lt;strong&gt; Options &lt;/strong&gt; &lt;/h2&gt;
-&lt;p class = &quot;lead&quot;&gt;
-	We create the app, publish it as open source and you can adapt it to your needs,
-	to be able to use it for your exchange ring for example.
-&lt;/p&gt;
-&lt;p&gt;
-	Do you know the &lt;strong&gt; info money &lt;/strong&gt; that Professor Franz Hörmann proposed? &lt;/br&gt;
-	We can also implement that. However, I&#x27;m not sure how exactly he means it,
-	but a variant could be that a student who delivers the advertisement or the newspaper takes 60 THX
-	per hour. A locksmith who has learned his profession for three years receives 60 THX per hour times factor 2.
-	That makes 120 THX per hour. A computer scientist who has studied for 6 years gets 60 THX per hour times factor 3.
-	That makes 180 THX per hour. So the earnings are analogous to the current system. &lt;/br&gt; &lt;/br&gt;
-	Since information money is now asynchronous, a computer scientist pays one hour at 180 THX an hour,
-	the student is only credited with 60 THX. &lt;/br&gt;
-	You can choose how exactly this is to be converted. &lt;/b&gt;
-	We can find a &lt;strong&gt; consensus &lt;/strong&gt; about this. True to the motto of Michael Tellinger (UBUNTU Movement). &lt;/br&gt;
-	&quot;If it&#x27;s not good for everyone, it&#x27;s not good at all.&quot;
-&lt;/p&gt;"
-                    adminlabel: "Options"
+                    text: "&lt;!-- CALLOUT --&gt;
+&lt;div class=&quot;bs-callout text-center styleBackground&quot;&gt;
+	&lt;h3&gt;Yes, I want to &lt;strong&gt;help&lt;/strong&gt; to spread the app.&lt;a href=&quot;hilfe_en.html&quot; target=&quot;_self&quot; class=&quot;btn btn-primary btn-lg&quot;&gt;Of Course&lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;!-- /CALLOUT --&gt;"
+                    adminlabel: "Callout"
                 }
             }
         }
@@ -332,7 +306,7 @@ Do you want to know how to solve this situation? Then read on.
                 span: 12
 
                 Text {
-                    text: "&lt;h2&gt;&lt;strong&gt;Team&lt;/strong&gt;&lt;/h2&gt;"
+                    text: "&lt;h2 class=&quot;margin-top100&quot;&gt;&lt;strong&gt;Team&lt;/strong&gt;&lt;/h2&gt;"
                     adminlabel: "Team"
                 }
             }

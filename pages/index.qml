@@ -146,7 +146,7 @@ Möchtest du wissen, wie man diese Situation lösen kann? Dann les weiter.
                     text: "&lt;h2 class=&quot;margin-top100&quot;&gt;&lt;strong&gt;Lösung&lt;/strong&gt;&lt;/h2&gt;
 &lt;p class=&quot;lead&quot;&gt;
 	Wir schaffen uns eine App, mit der wir selbst eine Währung münzen können.
-	Oder sagen wir besser, wie schaffen eine &lt;strong&gt;Flüssigkeit&lt;/strong&gt; (Liquid), 
+	Oder sagen wir besser, wir schaffen eine &lt;strong&gt;Flüssigkeit&lt;/strong&gt; (Liquid), 
 	mit der wir die &lt;strong&gt;Wirtschaft&lt;/strong&gt; am &lt;strong&gt;Fließen&lt;/strong&gt; halten.
 &lt;/p&gt;
 &lt;p&gt;
@@ -156,11 +156,11 @@ Möchtest du wissen, wie man diese Situation lösen kann? Dann les weiter.
 	All das rechnet deine App natürlich für dich aus.&lt;/br&gt;
 &lt;/p&gt;
 &lt;p&gt;
-	Nun legen wir einfach mal fest, das die Münze auf der Zeit basiert. Wenn du also eine Stunde Arbeit verrichtest,
+	Nun legen wir einfach mal fest, das die Münze auf Zeit basiert. Wenn du also eine Stunde Arbeit verrichtest,
 	dann bekommst du dafür 60 Münzen. Eine Münze pro Minute. &lt;/br&gt;&lt;/br&gt;
 	Wenn nun jeder, der die App hat, diese Bedingungen akzeptiert, dann haben wir ein Zahlungsmittel.&lt;/br&gt;
-	Dieses Zahlungsmittel, ist dann genau so gültig, wie der EURO oder der Dollar, zumindest bei allen, die dies akzeptieren.
-	Denn wir alle geben dieser Münze eine Bedeutung.
+	Dieses Zahlungsmittel, ist dann genau so gültig, wie der EURO oder der Dollar, zumindest bei allen, die dies 
+	akzeptieren. Denn wir alle geben dieser Münze eine Bedeutung.
 &lt;/p&gt;
 &lt;p&gt;
 	Wir haben diese Münze THX genannt. &lt;strong&gt;THX&lt;/strong&gt; ist die Abkürzung von dem englischen &lt;strong&gt;Thank You&lt;/strong&gt;.
@@ -169,46 +169,28 @@ Möchtest du wissen, wie man diese Situation lösen kann? Dann les weiter.
 	Ausspruch &quot;tausend Dank&quot; schon sehr nahe.
 &lt;/p&gt;
 &lt;p&gt;
-	Bezahlen tun wir, indem wir die selbstgemünzten Münzen an das Handy des Empängers übertragen. 
+	Bezahlen tun wir, indem wir die selbstgeschöpften Münzen an das Handy des Empängers übertragen. 
 	Das funktioniert ganz einfach, in dem wir einen QR-Code (Barcode) des Bezahlers einscannen und auf diese Weise
 	die Münzen erhalten. Wir benötigen also nicht mal ein Internet Zugang.
 &lt;/p&gt;
 &lt;p&gt;
-	Pro Tag generiert die App 10 THX für dich. Du hast also die Möglichkeit, nach einer Woche, jemanden für mehr als eine 
-	Stunde Arbeit zu bezahlen. So kommt das ganze ins Rollen. Möchtest Du mehr THX ansammeln, dann kannst Du
-	den Menschen in deiner Umgebung einen Service anbieten. Du kannst zum Beispiel Massagen geben, selbst ohne
-	Ausbildung. Jeder kann das. Du kannst den Menschen anbieten mit ihnen zu kuscheln und wirst dafür auch noch 
-	bezahlt. Oder du malst Bilder und berechnest dem Käufer das Material in EUR und deine Zeit in THX.
+	Pro Tag generiert die App 10 THX für dich. Du hast also die Möglichkeit, nach einer Woche, jemanden für mehr 
+	als eine Stunde Arbeit zu bezahlen. So kommt das ganze ins Rollen. Möchtest Du mehr THX ansammeln, 
+	dann kannst Du den Menschen in deiner Umgebung einen Service anbieten. Du kannst zum Beispiel Massagen geben, 
+	selbst ohne Ausbildung. Jeder kann das. Du kannst den Menschen anbieten mit ihnen zu kuscheln und wirst 
+    dafür auch noch bezahlt. Oder du malst Bilder und berechnest dem Käufer das Material in EUR und deine 
+	Zeit in THX.
 &lt;/p&gt;
 &lt;p&gt;
-	Damit das Ganze nicht als Illegal dargestellt wird, liefern wir es als Spiel aus. Als Simulation.
+	Damit das Ganze als legal dargestellt wird, liefern wir es als Spiel aus. Als Simulation.
 	Wir lernen also spielerisch, mit einer neuen Art von Wirtshaft umzugehen. Das befreit uns von dem Zwang,
-	arbeiten zu müssen. 
+	in der alte Wirtschaft arbeiten zu müssen. 
 &lt;/p&gt;
 &lt;p&gt;
 	Eventuell kannst du ja Land nutzen, um deine Lebensmittel selber anzubauen und sie gegen THX einzutauschen. 
 	Oder du besitzt Häuser und akzeptierst THX als Miete. 
 &lt;/p&gt;"
                     adminlabel: "Lösung"
-                }
-            }
-        }
-    }
-
-    Section {
-
-        Row {
-
-            Column {
-                span: 12
-
-                Text {
-                    text: "&lt;!-- CALLOUT --&gt;
-&lt;div class=&quot;bs-callout text-center styleBackground&quot;&gt;
-	&lt;h3&gt;Möchtest Du mit deiner Spende &lt;strong&gt;helfen&lt;/strong&gt; die App online zu bringen?&lt;a href=&quot;kraut.html&quot; target=&quot;_self&quot; class=&quot;btn btn-primary btn-lg&quot;&gt;Na klar&lt;/a&gt;&lt;/h3&gt;
-&lt;/div&gt;
-&lt;!-- /CALLOUT --&gt;"
-                    adminlabel: "Callout"
                 }
             }
         }
@@ -251,12 +233,18 @@ Möchtest du wissen, wie man diese Situation lösen kann? Dann les weiter.
                 span: 12
 
                 Text {
-                    text: "&lt;!-- CALLOUT --&gt;
-&lt;div class=&quot;bs-callout text-center styleBackground&quot;&gt;
-	&lt;h3&gt;Möchtest Du helfen die App online zu bringen und dabei etwas &lt;strong&gt;verdienen&lt;/strong&gt;?&lt;a href=&quot;help.html&quot; target=&quot;_self&quot; class=&quot;btn btn-primary btn-lg&quot;&gt;Na klar&lt;/a&gt;&lt;/h3&gt;
-&lt;/div&gt;
-&lt;!-- /CALLOUT --&gt;"
-                    adminlabel: "Callout"
+                    text: "&lt;h2 class=&quot;margin-top100&quot;&gt;&lt;strong&gt;Mithelfen&lt;/strong&gt;&lt;/h2&gt;
+&lt;p class=&quot;lead&quot;&gt;
+	Werbung für eine kostenlose App, ohne ein Budget?&lt;/br&gt;
+	Ist das überhaupt möglich?
+&lt;/p&gt;
+&lt;p&gt;
+	Damit du mit der App bezahlen kannst, benötigt es natürlich andere, die den THX als Zahlungsmittel akzeptieren.
+	Somit ist es zwingend erforderlich, das die Idee hinter der App weit verbreitet wird.
+	Leider verfügen wir nicht über genügend Kapital, um Werbung für die App und den THX zu finanzieren, 
+	deshalb sind wir auf &lt;strong&gt;Deine Hilfe&lt;/strong&gt; angewiesen.
+&lt;/p&gt;"
+                    adminlabel: "Mithelfen"
                 }
             }
         }
@@ -270,25 +258,12 @@ Möchtest du wissen, wie man diese Situation lösen kann? Dann les weiter.
                 span: 12
 
                 Text {
-                    text: "&lt;h2 class=&quot;margin-top100&quot;&gt;&lt;strong&gt;Optionen&lt;/strong&gt;&lt;/h2&gt;
-&lt;p class=&quot;lead&quot;&gt;
-	Wir erstellen die App, veröffentlichen sie als Open Source und du kannst sie an deine Bedürfnisse anpassen, 
-	um sie evtl. für deinen Tauschring nutzen zu können.
-&lt;/p&gt;
-&lt;p&gt;
-	Kennst du das &lt;strong&gt;Informationsgeld&lt;/strong&gt;, das Professor Franz Hörmann vorgeschlagen hat?&lt;/br&gt;
-	Auch das können wir implementieren. Ich bin mir allerdings nicht sicher, wie genau er es meint, 
-	aber eine Variante könnte sein, das ein Schüler der Werbung oder die Zeitung ausfährt, bekommt 60 THX
-	pro Stunde. Ein Schlosser, der drei Jahre lang seinen Beruf gelernt hat, bekommt 60 THX pro Stunde mal Faktor 2.
-	Das macht 120 THX pro Stunde. Ein Informatiker, der 6 Jahre lang studiert hat bekommt 60 THX pro Stunde mal Faktor 3.
-	Das macht dann 180 THX pro Stunde. Somit ist der Verdienst analog dem jetzigen System.&lt;/br&gt;&lt;/br&gt;
-	Da Informationsgeld nun aber asynchron ist, bezahlt ein Informatiker einen Stunden mit 180 THX pro Stunde,
-	der Student bekommt aber nur 60 THX gutgeschrieben.&lt;/br&gt;
-	Wie genau das umzurechnen ist, das dürft ihr euch aussuchen. &lt;/b&gt;
-	Darüber können wir einen &lt;strong&gt;Konsens&lt;/strong&gt; finden. Ganz nach dem Motto von Michael Tellinger (UBUNTU Movement).&lt;/br&gt;
-	&quot;Wenn es nicht für jeden gut ist, dann ist es überhaupt nicht gut.&quot;
-&lt;/p&gt;"
-                    adminlabel: "Options"
+                    text: "&lt;!-- CALLOUT --&gt;
+&lt;div class=&quot;bs-callout text-center styleBackground&quot;&gt;
+	&lt;h3&gt;Ja, ich möchte &lt;strong&gt;mithelfen&lt;/strong&gt; die App zu verbreiten.&lt;a href=&quot;hilfe.html&quot; target=&quot;_self&quot; class=&quot;btn btn-primary btn-lg&quot;&gt;Na klar&lt;/a&gt;&lt;/h3&gt;
+&lt;/div&gt;
+&lt;!-- /CALLOUT --&gt;"
+                    adminlabel: "Callout"
                 }
             }
         }
@@ -332,7 +307,7 @@ Möchtest du wissen, wie man diese Situation lösen kann? Dann les weiter.
                 span: 12
 
                 Text {
-                    text: "&lt;h2&gt;&lt;strong&gt;Team&lt;/strong&gt;&lt;/h2&gt;"
+                    text: "&lt;h2 class=&quot;margin-top100&quot;&gt;&lt;strong&gt;Team&lt;/strong&gt;&lt;/h2&gt;"
                     adminlabel: "Team"
                 }
             }
