@@ -21,148 +21,173 @@
 import QtQuick 2.5
 import QtQuick.Controls 2.0
 import QtQuick.Controls.Material 2.1
-import QtQuick.Layouts 1.0
 
 Page 
 {
 	id: page
 	title: "Receive"
-	property int hours: 4
-	property int minutes: 30
-	
-	Column 
+
+    property var amount: ""
+
+
+	Rectangle
 	{
-		spacing: 50
-		Row 
+		id: display
+    	height: parent.height / 4
+    	color: "#C0C0C0"
+		anchors.top: parent.top
+    	anchors.right: parent.right
+    	anchors.left: parent.left
+    	anchors.margins: page.width / 10
+
+    	Text 
 		{
-			spacing: 50
-			anchors.margins: 50
-			Image 
-			{
-				source: "images/hours.png"
-			} 
-	
-			Image 
-			{
-				source: "images/minutes.png"
-			} 
-		} 
-
-		Rectangle
+			id: amountlabel
+    		text: "Amount"
+			font.pixelSize: page.width / 20
+    	} 
+		Text 
 		{
-			id: grade
-			color: "#CCCCCC"
-			height: 150
-			
-			anchors.right: parent.right
-			anchors.left: parent.left
-			anchors.margins: 50
+			anchors.top: amountlabel.bottom
+    		text: amount
+			font.pixelSize: page.width / 20
+    	} 
+    	Text 
+		{
+    		font.pixelSize: page.width / 5
+    		text: calc(amount)
+    		anchors.centerIn: parent
 
-			Column
+			function calc(a)
 			{
-				Text 
+				try 
 				{
-    				text: "Grade"
-    			} 
-				Row
+					var temp = eval(a)
+					if(isNaN(temp))
+					{
+						receive.enabled = false
+    					return 0
+					}
+					else
+					{
+						receive.enabled = true
+						if(temp < 0)
+							return 0
+						else
+							return Math.round(eval(a));
+					}
+				} 
+				catch (e) 
 				{
-					RadioButton
-					{
-						id: min
-						width: 150
-						height: 150
-						font.pixelSize: 40
-						text: "MIN"
-						checked: true
-						
-					}
-
-					RadioButton
-					{
-						id: mid
-						width: 150
-						height: 150
-						font.pixelSize: 40
-						text: "MED"
-						
-					}
-
-					RadioButton
-					{
-						id: max
-						width: 150
-						height: 150
-						font.pixelSize: 40
-						text: "MAX"
-					}
+					receive.enabled = false
+    				return 0
 				}
 			}
-		}
-	
-		Rectangle 
+   		} 
+   		Text 
 		{
-    		id: display
-    		height: 200
-    		color: "#C0C0C0"
-    		anchors.right: parent. right
-    		anchors.left: parent.left
-		
-    		anchors.margins: 150
-    		Text 
-			{
-    			text: "Amount"
-    		} 
-    		Text 
-			{
-    			font.pixelSize: 100
-    			text: amount()
-    			anchors.centerIn: parent
+   			anchors.right: parent. right
+   			anchors. bottom: parent.bottom
+			font.pixelSize: page.width / 20
+   			text: "THX"
+   		} 
+ 	}
 
-				function amount()
-				{
-					var am = hours * 60 + minutes
-					if (mid.checked)
-						am *= 1.5
-					else if (max.checked)
-						am *= 2
-					return am
-				}
-    		} 
-    		Text 
-			{
-    			anchors.right: parent. right
-    			anchors. bottom: parent.bottom
-    			text: "THX"
-    		} 
-   	 	}
-	
-		Button 
+	Button
+	{
+		id: receive
+		enabled: false
+		anchors.top: display.bottom
+        anchors.left: parent.left
+        anchors.right: parent.right
+		anchors.leftMargin: page.width / 10
+		anchors.rightMargin: page.width / 10
+		height: page.height / 6
+		Material.background: Material.Green
+		onClicked: 
 		{
-			anchors.left: parent.left
-        	anchors.right: parent.right
-        	anchors.margins: 150
-    		height: 150
-    		Material.background: Material.Green
-			Text 
-			{
-    			anchors.centerIn: parent
-    			font.pixelSize: 40
-				color: "#ffffff"    				
-				text: "Receive"
-    		} 
-    			
-    		onClicked: qr.visible = true
-		} 
-	
-		Image 
+			buttons.visible = false
+			qr.visible = true
+			receive.enabled = false
+		}
+		Text 
 		{
-			id: qr
-			visible: false
-			anchors.left: parent.left
-        	anchors.right: parent.right
-        	anchors.margins: 150
-        	height: 300
-			source: "images/qr.png"
-		} 
+    		anchors.centerIn: parent
+    		font.pixelSize: page.height / 25
+    		color: "#ffffff"
+   			text: "Receive"
+    	} 
+	}
+	
+	Image 
+	{
+		id: qr
+		visible: false
+		anchors.top: receive.bottom
+        anchors.left: parent.left
+        anchors.right: parent.right
+        anchors.bottom: parent.bottom
+        anchors.leftMargin: page.width / 10
+		anchors.rightMargin: page.width / 10
+       	height: page.width - page.width / 10
+		width: height
+		source: "images/qr.png"
 	} 
+
+	Item 
+	{
+        id: buttons
+        anchors.top: receive.bottom
+        anchors.left: parent.left
+        anchors.right: parent.right
+        anchors.bottom: parent.bottom
+        anchors.leftMargin: page.width / 10
+		anchors.rightMargin: page.width / 10
+
+		Repeater 
+		{
+            id: digits
+            model: ["7", "8", "9", "×", "4", "5", "6", "÷", "1", "2", "3", "+", "0", "⬅", "C", "-"]
+            Button 
+			{
+                x: (index % 4) * width
+                y: Math.floor(index / 4 ) * height
+                width: parent.width / 4
+                height: parent.height / 4
+                Material.background: index % 4 == 3 ? Material.Yellow : Material.Blue
+				onClicked: calculate(modelData)
+				Text 
+				{
+    				anchors.centerIn: parent
+    				font.pixelSize: page.height / 20
+    				color: index % 4 == 3 ? "#000000" : "#ffffff"
+   					text: modelData
+    			} 
+            }
+        }
+	}
+
+	function calculate(key)
+	{
+		switch(key)
+		{
+			case "⬅":
+				if(amount.length > 0)
+					amount = amount.substr(0, amount.length - 1)
+				break;
+			case "÷": 
+				amount += "/"
+				break;
+			case "×": 
+				amount += "*"
+				break;
+			case "C":
+				amount = ""
+				break;
+			default:
+				amount += key
+				break;
+		}
+		console.log("key: " + key + ", amount: " + amount)
+	}
 }
