@@ -147,7 +147,7 @@ Page
 		Repeater 
 		{
             id: digits
-            model: ["7", "8", "9", "×", "4", "5", "6", "÷", "1", "2", "3", "+", "0", "⬅", "C", "-"]
+            model: ["7", "8", "9", "×", "4", "5", "6", "÷", "1", "2", "3", "+", "0", "￩", "C", "-"]
             Button 
 			{
                 x: (index % 4) * width
@@ -171,7 +171,7 @@ Page
 	{
 		switch(key)
 		{
-			case "⬅":
+			case "￩":
 				if(amount.length > 0)
 					amount = amount.substr(0, amount.length - 1)
 				break;

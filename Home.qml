@@ -21,7 +21,6 @@
 import QtQuick 2.5
 import QtQuick.Controls 2.0
 import QtQuick.Controls.Material 2.1
-import QtQuick.Layouts 1.0
 
 
 Page 
@@ -62,14 +61,14 @@ Page
 	{
 		id: pay
     	width: display.width / 3 - (page.width / 20)
-    	height: page.height / 6
+    	height: page.height / 7
     	Material.background: Material.Green
 		anchors.top: display.bottom
 		anchors.left: display.left
     	Text 
 		{
     		anchors.centerIn: parent
-    		font.pixelSize: page.height / 25
+    		font.pixelSize: page.height / 30
     		color: "#ffffff"
     		text: "Pay"
     	} 
@@ -78,14 +77,14 @@ Page
 	Button 
 	{
     	width: display.width / 3 - (page.width / 20)
-    	height: page.height / 6
+    	height: page.height / 7
     	Material.background: Material.Green
 		anchors.top: display.bottom
 		anchors.horizontalCenter: parent.horizontalCenter
     	Text 
 		{
     		anchors.centerIn: parent
-    		font.pixelSize: page.height / 25
+    		font.pixelSize: page.height / 30
     		color: "#ffffff"
   			text: "Send"
 		} 
@@ -95,16 +94,16 @@ Page
 	{
 		id: receive
 		width: display.width / 3 - (page.width / 20)
-		height: page.height / 6
+		height: page.height / 7
 		Material.background: Material.Green
     	anchors.top: display.bottom
 		anchors.right: display.right
 		Text 
 		{
     		anchors.centerIn: parent
-    		font.pixelSize: page.height / 25
+    		font.pixelSize: page.height / 30
     		color: "#ffffff"
-   			text: "Receive"
+   			text: "Rec"
     	} 
    		onClicked: stackview.push("Receive.qml") 
  	} 
@@ -208,7 +207,7 @@ Page
 				ListElement 
 				{
               		date: "19.04.2020"
-               		text: "In App Purchase"
+               		text: "In App Purch."
               		amount: 1000
        	      	}	
 	   		}

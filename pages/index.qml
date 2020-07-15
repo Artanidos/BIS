@@ -1,6 +1,7 @@
 import FlatSiteBuilder 2.0
 import RevolutionSlider 1.0
 import TextEditor 1.0
+import ImageEditor 1.0
 
 Content {
     title: "THX - Eco Flow Simulator"
@@ -149,15 +150,58 @@ Möchtest du wissen, wie man diese Situation lösen kann? Dann les weiter.
 	Oder sagen wir besser, wir schaffen eine &lt;strong&gt;Flüssigkeit&lt;/strong&gt; (Liquid), 
 	mit der wir die &lt;strong&gt;Wirtschaft&lt;/strong&gt; am &lt;strong&gt;Fließen&lt;/strong&gt; halten.
 &lt;/p&gt;
-&lt;p&gt;
+"
+                    adminlabel: "Lösung"
+                }
+            }
+        }
+
+        Row {
+
+            Column {
+                span: 4
+
+                Image {
+                    src: "homescreen.png"
+                    animation: "slideInUp"
+                    animation_type: "Sliding Entrances"
+                }
+            }
+
+            Column {
+                span: 4
+
+                Image {
+                    src: "receive.png"
+                    animation: "slideInUp"
+                    animation_type: "Sliding Entrances"
+                }
+            }
+
+            Column {
+                span: 4
+
+                Image {
+                    src: "receiveqr.png"
+                    animation: "slideInUp"
+                    animation_type: "Sliding Entrances"
+                }
+            }
+        }
+
+        Row {
+
+            Column {
+                span: 12
+
+                Text {
+                    text: "&lt;p&gt;
 	Du installierst die App auf deinem Handy und ab dann generierst du jeden Tag ein paar Münzen.&lt;/br&gt;
 	Du bekommst quasi Geld geschenkt.&lt;/br&gt;
 	Damit die Anzahl der Münzen begrenzt wird, verlieren alle Münzen über einen Zeitraum von 7 Jahre ihren Wert.
 	All das rechnet deine App natürlich für dich aus.&lt;/br&gt;
 &lt;/p&gt;
 &lt;p&gt;
-	Nun legen wir einfach mal fest, das die Münze auf Zeit basiert. Wenn du also eine Stunde Arbeit verrichtest,
-	dann bekommst du dafür 60 Münzen. Eine Münze pro Minute. &lt;/br&gt;&lt;/br&gt;
 	Wenn nun jeder, der die App hat, diese Bedingungen akzeptiert, dann haben wir ein Zahlungsmittel.&lt;/br&gt;
 	Dieses Zahlungsmittel, ist dann genau so gültig, wie der EURO oder der Dollar, zumindest bei allen, die dies 
 	akzeptieren. Denn wir alle geben dieser Münze eine Bedeutung.
@@ -190,7 +234,46 @@ Möchtest du wissen, wie man diese Situation lösen kann? Dann les weiter.
 	Eventuell kannst du ja Land nutzen, um deine Lebensmittel selber anzubauen und sie gegen THX einzutauschen. 
 	Oder du besitzt Häuser und akzeptierst THX als Miete. 
 &lt;/p&gt;"
-                    adminlabel: "Lösung"
+                }
+            }
+        }
+
+        Row {
+
+            Column {
+                span: 12
+
+                Text {
+                    text: "&lt;h2&gt;Beispiel für ein Restaurant&lt;/h2&gt;
+&lt;p&gt;
+	Derzeit bleiben zum Beispiel die Touristen aus, weil immer noch Menschen an den Folgen der Corona-Krise leiden.
+	Diese Folgen können sein, Arbeitslosigkeit, Armut oder einfach Angst.&lt;/br&gt;
+	Angst sich zu infizieren, Angst bei einem erneuten Lockdown im Urlaubsland festzustecken oder was auch immer.
+&lt;/p&gt;
+&lt;p&gt;
+	Die Einheimischen haben meist nicht genügend Geld, um das Angebot des Restaurants zu bezahlen und essen lieber
+	Zuhause.
+&lt;/p&gt;
+&lt;p&gt;
+	Wie wäre es da, wenn auf der Speisekarte stehen würde, das man zusätzlich auch mit THX bezahlen könnte?
+	Die Kunden fragen dann, was es mit diesen THX auf sich hat und man gibt seinen Kunden einen Flyer mit Infos zu dem THX.
+	Wenn der Kunde nun sieht, das er diese THX, völlig kostenlos bekommen kann, dann wird er zum einen öfters
+	zum Esssen kommen können und er wird diese Möglichkeit weiter erzählen. 
+&lt;/p&gt;
+&lt;p&gt;
+	Auf einmal können dann auch Menschen dort zum Essen kommen, die es sich normalerweise nicht leisten können.
+&lt;/p&gt;
+&lt;p&gt;
+	Wenn nun der Restaurantbesitzer sein Obst und Gemüse bei einem regionalen Bauern auch mit THX beziehen kann,
+	dann schließt sich der Kreis.
+&lt;/p&gt;
+&lt;p&gt;
+	Zusätzlich sehen die Kunden, das auch sie etwas anbieten können, um sich ein paar THX zu verdienen, 
+	denn die sonst arme Bevölkerung ist auf einmal wieder liquide.
+&lt;/p&gt;
+&lt;p&gt;
+	Das gute an dem Wertverlust ist, das niemand mehr das Geld horten möchte und es schnell wieder ausgeben wird.
+&lt;/p&gt;"
                 }
             }
         }
@@ -243,6 +326,16 @@ Möchtest du wissen, wie man diese Situation lösen kann? Dann les weiter.
 	Somit ist es zwingend erforderlich, das die Idee hinter der App weit verbreitet wird.
 	Leider verfügen wir nicht über genügend Kapital, um Werbung für die App und den THX zu finanzieren, 
 	deshalb sind wir auf &lt;strong&gt;Deine Hilfe&lt;/strong&gt; angewiesen.
+&lt;/p&gt;
+&lt;p&gt;
+	Zuerst mal, trage dich bitte in unseren Newsletter ein und erzähle deinen Freunden und Kollegen über dieses Projekt.
+	Erstelle einen Betrag auf Facebook und teile unsere Webseite, erzähle warum du an unsere Lösung glaubst.
+	Lade sie auch ein, sich hier zu registrieren.
+&lt;/p&gt;
+&lt;p&gt;
+	Wenn wir eine kritische Masse an Teilnehmern, die sich registriert haben, erreicht haben, dann werden wir 
+	motiviert sein, die App zu entwickeln.
+	Wir werden dann ausserdem im Stande sein, eine CrowdFunding-Kampagne zu starten, um die Entwicklungskosten rein zu holen, wenn nötig.
 &lt;/p&gt;"
                     adminlabel: "Mithelfen"
                 }
@@ -260,7 +353,7 @@ Möchtest du wissen, wie man diese Situation lösen kann? Dann les weiter.
                 Text {
                     text: "&lt;!-- CALLOUT --&gt;
 &lt;div class=&quot;bs-callout text-center styleBackground&quot;&gt;
-	&lt;h3&gt;Ja, ich möchte &lt;strong&gt;mithelfen&lt;/strong&gt; die App zu verbreiten.&lt;a href=&quot;hilfe.html&quot; target=&quot;_self&quot; class=&quot;btn btn-primary btn-lg&quot;&gt;Na klar&lt;/a&gt;&lt;/h3&gt;
+	&lt;h3&gt;Ja, ich möchte &lt;strong&gt;mithelfen&lt;/strong&gt; die App zu verbreiten.&lt;a href=&quot;http://eepurl.com/dLTUWc&quot; target=&quot;_self&quot; class=&quot;btn btn-primary btn-lg&quot;&gt;Eintragen&lt;/a&gt;&lt;/h3&gt;
 &lt;/div&gt;
 &lt;!-- /CALLOUT --&gt;"
                     adminlabel: "Callout"

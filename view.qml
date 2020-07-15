@@ -21,14 +21,13 @@
 import QtQuick 2.5
 import QtQuick.Controls 2.0
 import QtQuick.Controls.Material 2.1
-import QtQuick.Layouts 1.0
 
 ApplicationWindow 
 {
 	visible: true
 	id: window
-    width: 400
-    height: 650
+    width: 320
+    height: 600
     header: ToolBar 
     {
     	height: window.height / 15
@@ -38,7 +37,7 @@ ApplicationWindow
             id: menuButton
             anchors.left: parent.left
             anchors.verticalCenter: parent.verticalCenter
-            text: stackview.depth > 1 ? "⬅" : "≡"
+            text: stackview.depth > 1 ? "￩" : "≡"  //"⟵⬅￩
             font.pixelSize: window.height / 20
             onClicked: 
             {

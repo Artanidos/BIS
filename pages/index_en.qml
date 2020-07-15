@@ -1,6 +1,7 @@
 import FlatSiteBuilder 2.0
 import RevolutionSlider 1.0
 import TextEditor 1.0
+import ImageEditor 1.0
 
 Content {
     title: "THX - Eco Flow Simulator"
@@ -148,7 +149,52 @@ Do you want to know how to solve this situation? Then read on.
 &lt;p class=&quot;lead&quot;&gt;
 	We are creating an app with which we can coin a currency ourselves. 
 	Or better call it a &lt;strong&gt;liquid&lt;/strong&gt; to keep the &lt;strong&gt;economy flowing&lt;/strong&gt;.
-&lt;/p&gt;
+&lt;/p&gt;"
+                    adminlabel: "Solution"
+                }
+            }
+        }
+
+        Row {
+
+            Column {
+                span: 4
+
+                Image {
+                    src: "homescreen.png"
+                    animation: "slideInUp"
+                    animation_type: "Sliding Entrances"
+                }
+            }
+
+            Column {
+                span: 4
+
+                Image {
+                    src: "receive.png"
+                    animation: "slideInUp"
+                    animation_type: "Sliding Entrances"
+                }
+            }
+
+            Column {
+                span: 4
+
+                Image {
+                    src: "receiveqr.png"
+                    animation: "slideInUp"
+                    animation_type: "Sliding Entrances"
+                }
+            }
+        }
+
+        Row {
+
+            Column {
+                span: 12
+
+                Text {
+                    text: "
 &lt;p&gt;
 	You install the app on your phone and then you generate a few coins every day. &lt;/br&gt;
 	You get money for free. &lt;/br&gt;
@@ -156,8 +202,6 @@ Do you want to know how to solve this situation? Then read on.
 	Your app will of course do all of this calculation for you. &lt;/br&gt;
 &lt;/p&gt;
 &lt;p&gt;
-	Now we just determine that the coin is based on time. So if you do an hour of work
-	then you get 60 coins for it. One coin per minute. &lt;/br&gt; &lt;/br&gt;
 	If everyone who has the app accepts these conditions, we have a means of payment. &lt;/br&gt;
 	This means of payment is then just as valid as the EURO or the dollar, at least for all who accept it.
 	Because we all give this coin a meaning.
@@ -189,7 +233,45 @@ Do you want to know how to solve this situation? Then read on.
 	You may be able to use land to grow your own food and exchange it for THX.
 	Or you own houses and accept THX as rent.
 &lt;/p&gt;"
-                    adminlabel: "Solution"
+                }
+            }
+        }
+
+        Row {
+
+            Column {
+                span: 12
+
+                Text {
+                    text: "&lt;h2&gt;Example of a restaurant&lt;/h2&gt;
+&lt;p&gt;
+	For example, tourists are currently absent because people are still suffering from the consequences of the Corona crisis.
+	These consequences can be unemployment, poverty or simply fear. &lt;/br&gt;
+	Afraid of getting infected, afraid of getting stuck in another vacation lockdown or whatever.
+&lt;/p&gt;
+&lt;p&gt;
+	The locals usually don&#x27;t have enough money to pay for the restaurant&#x27;s offer and prefer to eat at home.
+&lt;/p&gt;
+&lt;p&gt;
+	How about if the menu said that you could also pay with THX?
+	The customers then ask what the THX is all about and they give their customers a flyer with information about the THX.
+	If the customer now sees that he can get this THX, completely free of charge, then on the one hand he will often
+	can come to eat and he will continue to tell this possibility.
+&lt;/p&gt;
+&lt;p&gt;
+	Suddenly people can come to eat there who normally cannot afford it.
+&lt;/p&gt;
+&lt;p&gt;
+	If the restaurant owner can now obtain his fruit and vegetables from a regional farmer with THX,
+	then the circle closes.
+&lt;/p&gt;
+&lt;p&gt;
+	In addition, customers see that they too can offer something to earn some THX,
+	because the otherwise poor population is suddenly liquid again.
+&lt;/p&gt;
+&lt;p&gt;
+	The good thing about the loss in value is that nobody wants to hoard the money anymore and will quickly spend it again.
+&lt;/p&gt;"
                 }
             }
         }
@@ -212,7 +294,7 @@ Do you want to know how to solve this situation? Then read on.
 			&lt;div class=&quot;white-row&quot;&gt;
 				&lt;h3&gt;&lt;strong&gt;HELP&lt;/strong&gt;&lt;/h3&gt;
 				&lt;p class=&quot;lead&quot;&gt;
-					now to make this happen and earn some coins.
+					now to make this happen.
 				&lt;/p&gt;
 			&lt;/div&gt;
 		&lt;/div&gt;
@@ -242,6 +324,15 @@ In order for you to be able to pay with the app, you naturally need others who a
 It is therefore imperative that the idea behind the app is widely disseminated.
 Unfortunately, we don&#x27;t have enough capital to fund advertising for the app and the THX,
 that&#x27;s why we rely on &lt;strong&gt; your help &lt;/strong&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+	First of all, please register yourself to our newsletter and tell your friends and collegues about this project. 
+	Create a post on Facebook and share this website with your friends. Tell them, why you belief in this idea and 
+	invite them also to register to our newsletter.
+&lt;/p&gt;
+&lt;p&gt;
+	If there is a critical mass of people already registered themselves, then we will be motivated to develop the app.
+	We will then also be able to start a crowd funding campaign to collect the cost for the development if needed.
 &lt;/p&gt;"
                     adminlabel: "Help"
                 }
@@ -259,7 +350,7 @@ that&#x27;s why we rely on &lt;strong&gt; your help &lt;/strong&gt;.
                 Text {
                     text: "&lt;!-- CALLOUT --&gt;
 &lt;div class=&quot;bs-callout text-center styleBackground&quot;&gt;
-	&lt;h3&gt;Yes, I want to &lt;strong&gt;help&lt;/strong&gt; to spread the app.&lt;a href=&quot;hilfe_en.html&quot; target=&quot;_self&quot; class=&quot;btn btn-primary btn-lg&quot;&gt;Of Course&lt;/a&gt;&lt;/h3&gt;
+	&lt;h3&gt;Yes, I want to &lt;strong&gt;help&lt;/strong&gt; to spread the app.&lt;a href=&quot;http://eepurl.com/dLTUWc&quot; target=&quot;_self&quot; class=&quot;btn btn-primary btn-lg&quot;&gt;Opt In&lt;/a&gt;&lt;/h3&gt;
 &lt;/div&gt;
 &lt;!-- /CALLOUT --&gt;"
                     adminlabel: "Callout"
