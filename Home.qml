@@ -72,6 +72,7 @@ Page
     		color: "#ffffff"
     		text: "Pay"
     	} 
+		onClicked: stackview.push("Pay.qml")
     } 
 
 	Button 
